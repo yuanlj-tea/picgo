@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T07:34:01.888Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="CcSfYQZNQrUMygtjEnM1" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T07:52:03.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="4L03zRlq44r7L6gqzL7d" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="957" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-14" value="抢锁成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34hItqsXbuOLqsZ-7lEG-12">
           <mxGeometry x="0.0588" y="2" relative="1" as="geometry">
-            <mxPoint x="108" y="2" as="offset" />
+            <mxPoint x="61" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="34hItqsXbuOLqsZ-7lEG-10" target="34hItqsXbuOLqsZ-7lEG-4">
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-10" value="加文件锁是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="450" width="110" height="80" as="geometry" />
+          <mxGeometry x="511" y="450" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="34hItqsXbuOLqsZ-7lEG-11" target="34hItqsXbuOLqsZ-7lEG-15">
           <mxGeometry relative="1" as="geometry" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-15" value="回写号段的最小最大值数据到apcu缓存中" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="939.89" y="563" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="34hItqsXbuOLqsZ-7lEG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="34hItqsXbuOLqsZ-7lEG-17" target="34hItqsXbuOLqsZ-7lEG-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-17" value="释放文件锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="939.89" y="661" width="120" height="60" as="geometry" />
@@ -94,7 +97,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="34hItqsXbuOLqsZ-7lEG-22" value="判断最小值是否大于设置的阈值百分比" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="34hItqsXbuOLqsZ-7lEG-22" value="判断最小值是否大于等于最大值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="810" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-28" value="返回唯一的id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -113,16 +116,19 @@
         <mxCell id="34hItqsXbuOLqsZ-7lEG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="34hItqsXbuOLqsZ-7lEG-31" target="34hItqsXbuOLqsZ-7lEG-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34hItqsXbuOLqsZ-7lEG-40" value="否，不阻塞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34hItqsXbuOLqsZ-7lEG-39">
+        <mxCell id="34hItqsXbuOLqsZ-7lEG-40" value="否，阻塞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34hItqsXbuOLqsZ-7lEG-39">
           <mxGeometry x="-0.215" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="34hItqsXbuOLqsZ-7lEG-31" value="加文件锁是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="810" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="34hItqsXbuOLqsZ-7lEG-38" value="不阻塞，直接返回唯一的id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="715" y="1000" width="120" height="60" as="geometry" />
+        <mxCell id="34hItqsXbuOLqsZ-7lEG-38" value="apcu_add，加一，返回唯一的id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="34hItqsXbuOLqsZ-7lEG-41" value="apcu_add，加一，返回唯一的id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="939.89" y="801" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
