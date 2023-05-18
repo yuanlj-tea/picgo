@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T11:33:02.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="vtHjW492WF8rcOieYv74" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T11:33:30.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="2NEzyszauvd8ot-22nVr" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="520" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,6 +187,13 @@
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-56" value="是否有B号段数据" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1490" y="1575.75" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5kf2ewFrjv8ZklRDmJV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-57" target="D5kf2ewFrjv8ZklRDmJV-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1595" y="1944" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-57" value="apcu_cas，将A号段最小最大值置为B号段的；&lt;br&gt;apcu_cas，将B号段置为0" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1460" y="1715.75" width="270" height="60" as="geometry" />
