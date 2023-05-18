@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T11:31:11.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="VSDjwmnOjbRPvAWNGDSC" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T11:32:43.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="ldLQ6pqnYTspgN5yNjCM" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="520" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,6 +177,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D5kf2ewFrjv8ZklRDmJV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-56" target="EW10OQYBDatXseVUmCqM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5kf2ewFrjv8ZklRDmJV-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5kf2ewFrjv8ZklRDmJV-5">
+          <mxGeometry x="-0.1593" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-56" value="是否有B号段数据" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1490" y="1575.75" width="210" height="70" as="geometry" />
         </mxCell>
@@ -204,29 +212,29 @@
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-64" edge="1" target="EW10OQYBDatXseVUmCqM-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2325" y="1525.75" as="targetPoint" />
+            <mxPoint x="1975" y="1680.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-64" value="请求guid服务端获取新的号段" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2265" y="1420.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="1915" y="1580.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-70" target="EW10OQYBDatXseVUmCqM-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-70" value="回写A号段的最小最大值数据到apcu缓存中" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2190" y="1535.75" width="270" height="60" as="geometry" />
+          <mxGeometry x="1840" y="1690.75" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D5kf2ewFrjv8ZklRDmJV-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-72" target="D5kf2ewFrjv8ZklRDmJV-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-72" value="释放文件锁" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2265" y="1645.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="1915" y="1800.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-74" value="apcu_add A号段，加一，返回唯一的id" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1915" y="1395.6599999999999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D5kf2ewFrjv8ZklRDmJV-0" value="返回A号段里的唯一的id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2265" y="1759.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="1915" y="1914.25" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
