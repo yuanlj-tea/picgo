@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T12:02:54.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="0AjNEvNmY27Edyl13U10" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T12:06:17.778Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="yYUHnwqATNCcihcYaWa-" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="520" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxPoint y="-94" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EW10OQYBDatXseVUmCqM-13" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="EW10OQYBDatXseVUmCqM-13" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#EA6B66;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1801" y="430" width="149" height="81" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-15" target="EW10OQYBDatXseVUmCqM-17" edge="1">
@@ -125,7 +125,7 @@
             <mxPoint x="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EW10OQYBDatXseVUmCqM-30" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="EW10OQYBDatXseVUmCqM-30" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F28D8D;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1795" y="791" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-32" value="apcu_add A号段，加一，返回唯一的id" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -210,7 +210,7 @@
         <mxCell id="BHLC3KJvTC_K16vWyv4f-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-63" target="BHLC3KJvTC_K16vWyv4f-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EW10OQYBDatXseVUmCqM-63" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="EW10OQYBDatXseVUmCqM-63" value="加文件锁LOCK-2是否成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FF3333;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1490" y="1360" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EW10OQYBDatXseVUmCqM-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW10OQYBDatXseVUmCqM-64" target="EW10OQYBDatXseVUmCqM-70" edge="1">
@@ -262,6 +262,19 @@
         </mxCell>
         <mxCell id="BHLC3KJvTC_K16vWyv4f-5" value="apcu_add A号段，加一，返回唯一的id" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1980" y="1559.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHLC3KJvTC_K16vWyv4f-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1875" y="430" as="sourcePoint" />
+            <mxPoint x="1940" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1925" y="430" />
+              <mxPoint x="1875" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHLC3KJvTC_K16vWyv4f-14" value="可以考虑改为自己实现个CAS自旋锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1940" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
