@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T07:33:36.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="VYCLS8IdsWULk9YQH0AR" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T07:51:09.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Iznsm11HGpE2-WloY5f5" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2715" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,10 +116,10 @@
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-44" value="当天呼频限制缓存池没有数据，更新全量呼频限制缓存池" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="426" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="kRNO9Mzyhtv_aaAjTweV-52" value="返回是黑名单" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-52" value="返回呼频限制" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="538" y="398" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="kRNO9Mzyhtv_aaAjTweV-55" value="返回不是黑名单" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-55" value="返回不限制" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="353" y="488" width="120" height="28" as="geometry" />
         </mxCell>
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-57" target="kRNO9Mzyhtv_aaAjTweV-32">
@@ -254,8 +254,14 @@
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-98" value="老名单批量结案，新名单入待入名单池" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kRNO9Mzyhtv_aaAjTweV-100" value="批量入名单表" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-100" target="kRNO9Mzyhtv_aaAjTweV-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-100" value="查下是否已经有未结案数据" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-103" value="单条名单入名单库" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="1309" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
