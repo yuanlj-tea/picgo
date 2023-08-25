@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T16:58:37.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="tB76cC_16ZK61m30y-At" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T03:41:07.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="4ae3f2xdme16ld-pGbys" version="21.6.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1398" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="sE1R3llDGgcR3d6aGBhd-222" value="修改了案件策略配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="sE1R3llDGgcR3d6aGBhd-3" vertex="1">
           <mxGeometry x="49.999999999999545" y="3490" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--4" value="查看策略配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-3">
+        <mxCell id="rE-0NIs9anfds37uVqD--4" value="查看策略配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="sE1R3llDGgcR3d6aGBhd-3" vertex="1">
           <mxGeometry x="49.999999999999545" y="3910" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-4" value="老电销系统" style="swimlane;startSize=20;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sE1R3llDGgcR3d6aGBhd-1" vertex="1">
@@ -184,17 +184,16 @@
         <mxCell id="sE1R3llDGgcR3d6aGBhd-96" value="新名单不入库，老名单类型更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="194.5" y="1680" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sE1R3llDGgcR3d6aGBhd-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="sE1R3llDGgcR3d6aGBhd-6" source="sE1R3llDGgcR3d6aGBhd-98" target="sE1R3llDGgcR3d6aGBhd-100" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sE1R3llDGgcR3d6aGBhd-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="sE1R3llDGgcR3d6aGBhd-6" source="sE1R3llDGgcR3d6aGBhd-98" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="sE1R3llDGgcR3d6aGBhd-6" source="sE1R3llDGgcR3d6aGBhd-98" target="sE1R3llDGgcR3d6aGBhd-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-98" value="更新挂短、券包、是否高优、结案事件、案件有效期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="195" y="1779" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sE1R3llDGgcR3d6aGBhd-100" value="入库时间、归属坐席不变;&lt;br&gt;留白组/营销组位置不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
-          <mxGeometry x="195" y="1880" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-102" value="如果策略配了有效期延长，需要延长有效期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="21" y="1779" width="110" height="50" as="geometry" />
@@ -295,11 +294,20 @@
         <mxCell id="sE1R3llDGgcR3d6aGBhd-229" value="短信、券包、结案规则(结案事件)、是否高优&lt;br&gt;需要立即生效" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="152.25" y="3760" width="205.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--3" value="新增策略配置接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+        <mxCell id="rE-0NIs9anfds37uVqD--3" value="新增策略配置接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="214.5" y="220" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--5" value="策略配置详情接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+        <mxCell id="rE-0NIs9anfds37uVqD--5" value="策略配置详情接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="209.5" y="3910" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-1" value="入库时间、归属坐席不变;&lt;br&gt;留白组/营销组位置不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+          <mxGeometry x="361" y="1925" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sE1R3llDGgcR3d6aGBhd-6" source="IQZec_iSoBaJmJqpk4PH-2" target="IQZec_iSoBaJmJqpk4PH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-2" value="如果只配了案件有效期，就是在入库时间往后加到案件有效期;如果同时配了案件有效期和延长,就是在入库时间基础上加到案件有效期后再延长相应的时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+          <mxGeometry x="180.5" y="1890" width="134.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-5" value="新电销系统存储" style="swimlane;startSize=20;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sE1R3llDGgcR3d6aGBhd-1" vertex="1">
           <mxGeometry x="939.9999999999995" y="20" width="264.99999999999955" height="4180" as="geometry" />
@@ -513,15 +521,15 @@
         <mxCell id="sE1R3llDGgcR3d6aGBhd-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="sE1R3llDGgcR3d6aGBhd-1" source="sE1R3llDGgcR3d6aGBhd-204" target="sE1R3llDGgcR3d6aGBhd-206" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sE1R3llDGgcR3d6aGBhd-1" source="sE1R3llDGgcR3d6aGBhd-13" target="rE-0NIs9anfds37uVqD--3">
+        <mxCell id="rE-0NIs9anfds37uVqD--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="sE1R3llDGgcR3d6aGBhd-1" source="sE1R3llDGgcR3d6aGBhd-13" target="rE-0NIs9anfds37uVqD--3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="574.9999999999995" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sE1R3llDGgcR3d6aGBhd-1" source="rE-0NIs9anfds37uVqD--4" target="rE-0NIs9anfds37uVqD--5">
+        <mxCell id="rE-0NIs9anfds37uVqD--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="sE1R3llDGgcR3d6aGBhd-1" source="rE-0NIs9anfds37uVqD--4" target="rE-0NIs9anfds37uVqD--5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rE-0NIs9anfds37uVqD--7" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rE-0NIs9anfds37uVqD--6">
+        <mxCell id="rE-0NIs9anfds37uVqD--7" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rE-0NIs9anfds37uVqD--6" vertex="1" connectable="0">
           <mxGeometry x="-0.0154" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
