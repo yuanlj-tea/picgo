@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T16:11:35.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="c4oYZjg_wtdi97mfeUMD" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T16:18:09.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="y7ItACkc7JmzqdjCylLb" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3108" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,11 +110,11 @@
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-37" value="呼频限制缓存池中是否有数据" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="338" y="375" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kRNO9Mzyhtv_aaAjTweV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-38" target="kRNO9Mzyhtv_aaAjTweV-43" edge="1">
+        <mxCell id="kRNO9Mzyhtv_aaAjTweV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.444;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-38" target="kRNO9Mzyhtv_aaAjTweV-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-38" value="每天凌晨缓存用户呼频数据" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="109" y="398" width="100" height="40" as="geometry" />
+          <mxGeometry x="109" y="390" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b6NT6qah2utfIJMKQxDK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.834;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-39" target="kRNO9Mzyhtv_aaAjTweV-32">
           <mxGeometry relative="1" as="geometry" />
@@ -274,6 +274,9 @@
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-100" value="查下是否已经有未结案数据" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="332" y="1208" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="b6NT6qah2utfIJMKQxDK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kRNO9Mzyhtv_aaAjTweV-103" target="b6NT6qah2utfIJMKQxDK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kRNO9Mzyhtv_aaAjTweV-103" value="单条名单入名单库" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="332" y="1327" width="120" height="60" as="geometry" />
         </mxCell>
@@ -304,6 +307,9 @@
         </mxCell>
         <mxCell id="b6NT6qah2utfIJMKQxDK-10" value="也可以全量缓存未结案数据" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="376" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6NT6qah2utfIJMKQxDK-11" value="更新呼频缓存数据，更新未结案缓存数据" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="532" y="1327" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
