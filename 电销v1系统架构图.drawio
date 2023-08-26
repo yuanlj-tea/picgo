@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T16:59:56.966Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="RyVGN-UN5cnY_otLVF3r" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T17:01:31.582Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="cC8rckpD21W85sl-QgUR" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2645" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,6 +219,15 @@
         </mxCell>
         <mxCell id="5eVZPDMPn15s1h4FUccy-74" value="优惠券服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="67.5" y="1130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5eVZPDMPn15s1h4FUccy-75" value="……" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="1130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5eVZPDMPn15s1h4FUccy-76" value="业务指标监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="1080" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5eVZPDMPn15s1h4FUccy-77" value="JVM监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="570" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
