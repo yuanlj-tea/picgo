@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T16:22:25.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="PsZz2gQmMB9tBRaIXH5p" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T16:39:12.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="6_BrzWAbwLbA9DKKQEyF" version="21.6.9" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="2604" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-24" value="回传上报功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1970" width="730" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-1" value="价值归因功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="130" y="1480" width="730" height="230" as="geometry" />
         </mxCell>
@@ -233,13 +236,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-3" target="jxjvqKXvlDniJQd5FRnU-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1548" />
+              <mxPoint x="110" y="1596" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-3" value="app登录/启动" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
           <mxGeometry x="-63" y="1510" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-5" target="jxjvqKXvlDniJQd5FRnU-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1653" />
+              <mxPoint x="110" y="1596" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-5" value="api渠道用户授信" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
           <mxGeometry x="-63" y="1615" width="100" height="75" as="geometry" />
@@ -248,7 +261,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-7" value="价值归因计算服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
-          <mxGeometry x="180" y="1557.5" width="100" height="75" as="geometry" />
+          <mxGeometry x="230" y="1558" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-9" target="jxjvqKXvlDniJQd5FRnU-19">
           <mxGeometry relative="1" as="geometry" />
@@ -264,8 +277,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-11" target="jxjvqKXvlDniJQd5FRnU-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="1910" />
+              <mxPoint x="240" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-11" value="CIS用户基础信息服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="1770" width="100" height="75" as="geometry" />
+          <mxGeometry x="247.5" y="1791" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-13" target="jxjvqKXvlDniJQd5FRnU-9">
           <mxGeometry relative="1" as="geometry">
@@ -275,8 +296,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-13" target="jxjvqKXvlDniJQd5FRnU-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="1910" />
+              <mxPoint x="398" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-13" value="风控信息服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
-          <mxGeometry x="378.5" y="1770" width="100" height="75" as="geometry" />
+          <mxGeometry x="375" y="1791" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-15" target="jxjvqKXvlDniJQd5FRnU-9">
           <mxGeometry relative="1" as="geometry">
@@ -286,8 +316,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-15" target="jxjvqKXvlDniJQd5FRnU-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="1910" />
+              <mxPoint x="398" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-15" value="信贷信息服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
-          <mxGeometry x="507.5" y="1770" width="100" height="75" as="geometry" />
+          <mxGeometry x="505" y="1791" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-17" target="jxjvqKXvlDniJQd5FRnU-9">
           <mxGeometry relative="1" as="geometry">
@@ -298,7 +336,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-17" value="数仓ads数据服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
-          <mxGeometry x="642.5" y="1770" width="100" height="75" as="geometry" />
+          <mxGeometry x="642.5" y="1791" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jxjvqKXvlDniJQd5FRnU-18" value="归因结果查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
           <mxGeometry x="742.5" y="1557.5" width="100" height="75" as="geometry" />
@@ -324,8 +362,53 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jxjvqKXvlDniJQd5FRnU-24" value="回传上报功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function" vertex="1" parent="1">
-          <mxGeometry x="130" y="1970" width="730" height="210" as="geometry" />
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-25" target="jxjvqKXvlDniJQd5FRnU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-25" value="注册/完件/授信" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
+          <mxGeometry x="-63" y="2037.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-26" target="jxjvqKXvlDniJQd5FRnU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-26" value="上报服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+          <mxGeometry x="190" y="2037.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-33" target="jxjvqKXvlDniJQd5FRnU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-33" value="扣量策略引擎" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="348" y="2038" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-39" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;策略引擎配置数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+          <mxGeometry x="348" y="2240" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-40" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-33" target="jxjvqKXvlDniJQd5FRnU-39">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="150" y="2355" as="sourcePoint" />
+            <mxPoint x="250" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jxjvqKXvlDniJQd5FRnU-41" target="jxjvqKXvlDniJQd5FRnU-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-41" value="上报节点查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="2038" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-43" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;上报配置数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+          <mxGeometry x="540" y="2240" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-44" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="589.5" y="2113" as="sourcePoint" />
+            <mxPoint x="589.5" y="2240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="2177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-46" value="请求平台上报接口" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="715" y="2037.5" width="100" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
