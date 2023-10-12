@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T16:20:53.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="f6UU5J5uV5Jql7tDrdkw" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T16:22:25.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="PsZz2gQmMB9tBRaIXH5p" version="21.6.9" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="2604" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jxjvqKXvlDniJQd5FRnU-1" value="价值归因服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-1" value="价值归因功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="130" y="1480" width="730" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;排除人群包上报&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;排除人群包上报功能&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="130" y="210" width="740" height="320" as="geometry" />
         </mxCell>
         <mxCell id="BALfqEKntHM_j133m_wY-4" value="存量手机号信息查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
@@ -102,7 +102,7 @@
         <mxCell id="BALfqEKntHM_j133m_wY-36" value="创建广告计划" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="-66" y="940" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-38" value="广告行为数据接收" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-38" value="广告行为数据接收功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="756" width="630" height="217.5" as="geometry" />
         </mxCell>
         <mxCell id="BALfqEKntHM_j133m_wY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-39" target="BALfqEKntHM_j133m_wY-40" edge="1">
@@ -126,7 +126,7 @@
         <mxCell id="BALfqEKntHM_j133m_wY-46" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;用户行为数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="930" y="823.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-53" value="用户注册服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-53" value="落地页用户注册功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="130" y="1060" width="740" height="217.5" as="geometry" />
         </mxCell>
         <mxCell id="BALfqEKntHM_j133m_wY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-47" target="BALfqEKntHM_j133m_wY-39" edge="1">
@@ -323,6 +323,9 @@
               <mxPoint x="820" y="1460" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jxjvqKXvlDniJQd5FRnU-24" value="回传上报功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function" vertex="1" parent="1">
+          <mxGeometry x="130" y="1970" width="730" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
