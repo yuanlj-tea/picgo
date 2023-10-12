@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T00:58:18.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="R3ekw1UpXu2tlclbBT5T" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:20:39.718Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="xAFInRLd1xIiDtGB5x6k" version="21.7.5" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
-    <mxGraphModel dx="1982" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="1062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BALfqEKntHM_j133m_wY-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;排除人群包上报&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;排除人群包上报&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="130" y="210" width="740" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-4" value="存量手机号信息查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-4" value="存量手机号信息查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="211" y="240" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-5" target="BALfqEKntHM_j133m_wY-4">
+        <mxCell id="BALfqEKntHM_j133m_wY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BALfqEKntHM_j133m_wY-5" target="BALfqEKntHM_j133m_wY-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-5" value="用户信息批量查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-5" value="用户信息批量查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="211" y="80" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-6" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;用户基础信息&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-6" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;用户基础信息&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="-63" y="240" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-16" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-5" target="BALfqEKntHM_j133m_wY-6">
+        <mxCell id="BALfqEKntHM_j133m_wY-16" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-5" target="BALfqEKntHM_j133m_wY-6" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="260" y="160" as="sourcePoint" />
             <mxPoint x="680" y="470" as="targetPoint" />
@@ -28,40 +28,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-17" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-4" target="BALfqEKntHM_j133m_wY-6">
+        <mxCell id="BALfqEKntHM_j133m_wY-17" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-4" target="BALfqEKntHM_j133m_wY-6" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="50" y="430" as="sourcePoint" />
             <mxPoint x="-150" y="552" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-18" value="存量设备信息查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-18" value="存量设备信息查询" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="211" y="400" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-21" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-18">
+        <mxCell id="BALfqEKntHM_j133m_wY-21" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-18" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="150" y="410" as="sourcePoint" />
             <mxPoint x="-20" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-22" target="BALfqEKntHM_j133m_wY-18">
+        <mxCell id="BALfqEKntHM_j133m_wY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-22" target="BALfqEKntHM_j133m_wY-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-22" value="风控设备信息批量查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-22" value="风控设备信息批量查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="211" y="580" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-24" target="BALfqEKntHM_j133m_wY-29">
+        <mxCell id="BALfqEKntHM_j133m_wY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-24" target="BALfqEKntHM_j133m_wY-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-24" value="数据格式化处理" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-24" value="数据格式化处理" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="482" y="315" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-26" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-4" target="BALfqEKntHM_j133m_wY-24">
+        <mxCell id="BALfqEKntHM_j133m_wY-26" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-4" target="BALfqEKntHM_j133m_wY-24" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="20" y="605" as="sourcePoint" />
             <mxPoint x="120" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-28" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-18" target="BALfqEKntHM_j133m_wY-24">
+        <mxCell id="BALfqEKntHM_j133m_wY-28" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-18" target="BALfqEKntHM_j133m_wY-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="370" y="630" as="sourcePoint" />
             <mxPoint x="530" y="630" as="targetPoint" />
@@ -70,13 +70,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-29" target="BALfqEKntHM_j133m_wY-32">
+        <mxCell id="BALfqEKntHM_j133m_wY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-29" target="BALfqEKntHM_j133m_wY-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-29" value="生成人群包" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-29" value="生成人群包" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="682" y="315" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-31" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-22">
+        <mxCell id="BALfqEKntHM_j133m_wY-31" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-22" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="110" y="570" as="sourcePoint" />
             <mxPoint x="-20" y="320" as="targetPoint" />
@@ -85,49 +85,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-32" value="人群包上传服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-32" value="人群包上传服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="930" y="315" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-35" target="BALfqEKntHM_j133m_wY-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BALfqEKntHM_j133m_wY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BALfqEKntHM_j133m_wY-35" target="BALfqEKntHM_j133m_wY-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-35" value="运营人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.application;appType=actor" vertex="1" parent="1">
-          <mxGeometry x="-66" y="710" width="100" height="75" as="geometry" />
+        <mxCell id="BALfqEKntHM_j133m_wY-35" value="运营人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.application;appType=actor" parent="1" vertex="1">
+          <mxGeometry x="-237" y="827.25" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-36" value="创建广告计划" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-36" value="创建广告计划" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="-66" y="940" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-38" value="广告行为数据接收" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-38" value="广告行为数据接收" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="756" width="630" height="217.5" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-39" target="BALfqEKntHM_j133m_wY-40">
+        <mxCell id="BALfqEKntHM_j133m_wY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-39" target="BALfqEKntHM_j133m_wY-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-39" value="用户行为请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-39" value="用户行为请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" parent="1" vertex="1">
           <mxGeometry x="90" y="827.25" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-40" target="BALfqEKntHM_j133m_wY-42">
+        <mxCell id="BALfqEKntHM_j133m_wY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-40" target="BALfqEKntHM_j133m_wY-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-40" value="数据接收服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-40" value="数据接收服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="311" y="827.25" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-42" value="用户行为数据异步落库" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-42" value="用户行为数据异步落库" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="500" y="827.25" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-44" value="用户行为数据查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-44" value="用户行为数据查询服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="682" y="823.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-46" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;用户行为数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-46" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;用户行为数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="930" y="823.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-53" value="用户注册服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-53" value="用户注册服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="130" y="1060" width="740" height="217.5" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-47" target="BALfqEKntHM_j133m_wY-39">
+        <mxCell id="BALfqEKntHM_j133m_wY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-47" target="BALfqEKntHM_j133m_wY-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-44" target="BALfqEKntHM_j133m_wY-61">
+        <mxCell id="BALfqEKntHM_j133m_wY-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-44" target="BALfqEKntHM_j133m_wY-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="732" y="940" />
@@ -135,79 +137,88 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-47" target="BALfqEKntHM_j133m_wY-36">
+        <mxCell id="BALfqEKntHM_j133m_wY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-47" target="BALfqEKntHM_j133m_wY-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-47" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;抖音/其它广告平台&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.product;overflow=fill" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-47" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;抖音/其它广告平台&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.product;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="-66" y="826.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-49" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-44" target="BALfqEKntHM_j133m_wY-46">
+        <mxCell id="BALfqEKntHM_j133m_wY-49" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-44" target="BALfqEKntHM_j133m_wY-46" edge="1">
           <mxGeometry width="100" height="75" relative="1" as="geometry">
             <mxPoint x="744" y="636" as="sourcePoint" />
             <mxPoint x="910" y="866" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-52">
+        <mxCell id="BALfqEKntHM_j133m_wY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BALfqEKntHM_j133m_wY-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180.000000000025" y="1177.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-52" value="用户注册请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-52" value="用户注册请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" parent="1" vertex="1">
           <mxGeometry x="-63" y="1140" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-59" target="BALfqEKntHM_j133m_wY-61">
+        <mxCell id="BALfqEKntHM_j133m_wY-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-59" target="BALfqEKntHM_j133m_wY-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-63" value="应用市场渠道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BALfqEKntHM_j133m_wY-62">
+        <mxCell id="BALfqEKntHM_j133m_wY-63" value="应用市场渠道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BALfqEKntHM_j133m_wY-62" vertex="1" connectable="0">
           <mxGeometry x="-0.0916" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-59" target="BALfqEKntHM_j133m_wY-65">
+        <mxCell id="BALfqEKntHM_j133m_wY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BALfqEKntHM_j133m_wY-59" target="BALfqEKntHM_j133m_wY-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="1220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-69" value="信息流渠道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BALfqEKntHM_j133m_wY-68">
+        <mxCell id="BALfqEKntHM_j133m_wY-69" value="信息流渠道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BALfqEKntHM_j133m_wY-68" vertex="1" connectable="0">
           <mxGeometry x="-0.3168" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-59" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-59" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" parent="1" vertex="1">
           <mxGeometry x="180" y="1157.5" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-61" target="BALfqEKntHM_j133m_wY-70">
+        <mxCell id="BALfqEKntHM_j133m_wY-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BALfqEKntHM_j133m_wY-61" target="BALfqEKntHM_j133m_wY-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-61" value="改写用户渠道号" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-61" value="改写用户渠道号" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="280" y="1090" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-65" target="BALfqEKntHM_j133m_wY-70">
+        <mxCell id="BALfqEKntHM_j133m_wY-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-65" target="BALfqEKntHM_j133m_wY-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-65" value="保存用户广告标记数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-65" value="保存用户广告标记数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="280" y="1192" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-66" target="BALfqEKntHM_j133m_wY-70">
+        <mxCell id="BALfqEKntHM_j133m_wY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BALfqEKntHM_j133m_wY-66" target="BALfqEKntHM_j133m_wY-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-66" value="CIS用户注册服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-66" value="CIS用户注册服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" parent="1" vertex="1">
           <mxGeometry x="469" y="1310" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-70" target="BALfqEKntHM_j133m_wY-74">
+        <mxCell id="BALfqEKntHM_j133m_wY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BALfqEKntHM_j133m_wY-70" target="BALfqEKntHM_j133m_wY-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-70" value="注册账号" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-70" value="注册账号" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="475" y="1140" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BALfqEKntHM_j133m_wY-74" value="请求上报" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="BALfqEKntHM_j133m_wY-74" value="请求上报" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="625" y="1140.75" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SX-oDxo847T198Aql7Ha-1" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BALfqEKntHM_j133m_wY-32" target="BALfqEKntHM_j133m_wY-47">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="440" y="695" as="sourcePoint" />
+            <mxPoint x="540" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="690" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
