@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T03:41:07.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="4ae3f2xdme16ld-pGbys" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T13:43:47.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="VGnIQg3k9TdsmolPDo0u" version="21.7.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2015" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1770" dy="2231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -300,13 +300,13 @@
         <mxCell id="rE-0NIs9anfds37uVqD--5" value="策略配置详情接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="209.5" y="3910" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IQZec_iSoBaJmJqpk4PH-1" value="入库时间、归属坐席不变;&lt;br&gt;留白组/营销组位置不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-1" value="入库时间、归属坐席不变;&lt;br&gt;留白组/营销组位置不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="361" y="1925" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IQZec_iSoBaJmJqpk4PH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sE1R3llDGgcR3d6aGBhd-6" source="IQZec_iSoBaJmJqpk4PH-2" target="IQZec_iSoBaJmJqpk4PH-1">
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="sE1R3llDGgcR3d6aGBhd-6" source="IQZec_iSoBaJmJqpk4PH-2" target="IQZec_iSoBaJmJqpk4PH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQZec_iSoBaJmJqpk4PH-2" value="如果只配了案件有效期，就是在入库时间往后加到案件有效期;如果同时配了案件有效期和延长,就是在入库时间基础上加到案件有效期后再延长相应的时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="sE1R3llDGgcR3d6aGBhd-6">
+        <mxCell id="IQZec_iSoBaJmJqpk4PH-2" value="如果只配了案件有效期，就是在入库时间往后加到案件有效期;如果同时配了案件有效期和延长,就是在入库时间基础上加到案件有效期后再延长相应的时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="sE1R3llDGgcR3d6aGBhd-6" vertex="1">
           <mxGeometry x="180.5" y="1890" width="134.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="sE1R3llDGgcR3d6aGBhd-5" value="新电销系统存储" style="swimlane;startSize=20;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sE1R3llDGgcR3d6aGBhd-1" vertex="1">
