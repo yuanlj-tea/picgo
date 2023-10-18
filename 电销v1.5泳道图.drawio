@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:39:58.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="-4XGrY2-SOwVCxNBAO25" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:40:13.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="l2cWHoNuyCmaoJR4C_9t" version="21.7.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1868" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,17 +93,11 @@
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-24" value="小组下面所有在职人员的名单每日分配量汇总数量" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" parent="u1YVipLCWvImAruFahIr-2" vertex="1">
           <mxGeometry x="380" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zbJT8-ApV_Uyj_YICEEn-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="u1YVipLCWvImAruFahIr-2" source="zbJT8-ApV_Uyj_YICEEn-26" target="zbJT8-ApV_Uyj_YICEEn-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="u1YVipLCWvImAruFahIr-2" source="zbJT8-ApV_Uyj_YICEEn-26" target="zbJT8-ApV_Uyj_YICEEn-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-26" value="各小组内坐席均分" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" parent="u1YVipLCWvImAruFahIr-2" vertex="1">
           <mxGeometry x="168" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zbJT8-ApV_Uyj_YICEEn-28" value="均分的说法有些问题" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;labelBackgroundColor=none;" parent="u1YVipLCWvImAruFahIr-2" vertex="1">
-          <mxGeometry x="368" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="u1YVipLCWvImAruFahIr-2" source="zbJT8-ApV_Uyj_YICEEn-30" target="zbJT8-ApV_Uyj_YICEEn-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
