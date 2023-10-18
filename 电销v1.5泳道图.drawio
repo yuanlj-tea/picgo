@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T17:03:07.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="6GD_duvn3ClN5S1NKMSv" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T00:42:55.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="M1fV8btav6MgNgLh34Zw" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2080" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2289" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,27 +113,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zbJT8-ApV_Uyj_YICEEn-30" value="进入案件跟进列表页" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="u1YVipLCWvImAruFahIr-2">
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-30" value="进入案件跟进列表页" style="whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="u1YVipLCWvImAruFahIr-2">
           <mxGeometry x="168.5" y="840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zbJT8-ApV_Uyj_YICEEn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u1YVipLCWvImAruFahIr-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-270.00000000000045" y="380" as="sourcePoint" />
-            <mxPoint x="227.99999999999955" y="443" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-270.00000000000045" y="433" />
-              <mxPoint x="189.99999999999955" y="433" />
-              <mxPoint x="189.99999999999955" y="443" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zbJT8-ApV_Uyj_YICEEn-33" value="经理/管理员再分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-32">
-          <mxGeometry x="-0.191" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-34" value="转派" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="u1YVipLCWvImAruFahIr-2">
           <mxGeometry x="470" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="u1YVipLCWvImAruFahIr-2" source="zbJT8-ApV_Uyj_YICEEn-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="590" as="sourcePoint" />
+            <mxPoint x="229.99999999999955" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="640" />
+              <mxPoint x="-50" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-44" value="经理/管理员/电销运营再分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-43">
+          <mxGeometry x="-0.491" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-45" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="u1YVipLCWvImAruFahIr-3" value="呼叫中心" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="u1YVipLCWvImAruFahIr-1" vertex="1">
           <mxGeometry x="600" y="20" width="120" height="1280" as="geometry" />
@@ -172,8 +171,56 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zbJT8-ApV_Uyj_YICEEn-16" target="zbJT8-ApV_Uyj_YICEEn-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="597" />
+              <mxPoint x="-210" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-49" value="供应商名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-41">
+          <mxGeometry x="0.6792" y="3" relative="1" as="geometry">
+            <mxPoint x="-26" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-16" value="名单状态：待分配&lt;br&gt;类型：供应商名单" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-179.99999999999955" y="567" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zbJT8-ApV_Uyj_YICEEn-37" target="zbJT8-ApV_Uyj_YICEEn-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-48" value="回收名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-42">
+          <mxGeometry x="0.6646" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-37" value="回收" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zbJT8-ApV_Uyj_YICEEn-30" target="zbJT8-ApV_Uyj_YICEEn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-39" value="超管/电销运营" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-38">
+          <mxGeometry x="0.1095" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-40" value="待分配池" style="whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-119.99999999999955" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zbJT8-ApV_Uyj_YICEEn-18" target="zbJT8-ApV_Uyj_YICEEn-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-46" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-45">
+          <mxGeometry x="-0.7479" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbJT8-ApV_Uyj_YICEEn-47" value="剩余名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zbJT8-ApV_Uyj_YICEEn-45">
+          <mxGeometry x="0.8007" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
