@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:40:32.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="AepVHdytwBRCFerqWISk" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T09:19:35.101Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="UwrLs3qTPqalYlEzjQn3" version="21.7.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2513" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,6 +127,9 @@
           <mxGeometry x="-0.491" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="-45" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x5fJgK1X47zH9QWcjAre-75" value="100&amp;nbsp; &amp;nbsp; &amp;nbsp;-10&lt;br&gt;90&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2满 -8&lt;br&gt;82&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2满&amp;nbsp; -6&lt;br&gt;76&lt;br&gt;&lt;br&gt;10&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0&lt;br&gt;&lt;br&gt;剩余名单" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="u1YVipLCWvImAruFahIr-2">
+          <mxGeometry x="379.99999999999955" y="685" width="100" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zbJT8-ApV_Uyj_YICEEn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u1YVipLCWvImAruFahIr-18" target="zbJT8-ApV_Uyj_YICEEn-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -327,6 +330,12 @@
         <mxCell id="x5fJgK1X47zH9QWcjAre-54" value="小休/会议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x5fJgK1X47zH9QWcjAre-10">
           <mxGeometry x="25" y="690" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="x5fJgK1X47zH9QWcjAre-61" value="前端/后端触发，随路信息带唯一id，字段名待定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x5fJgK1X47zH9QWcjAre-10">
+          <mxGeometry x="40" y="440" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x5fJgK1X47zH9QWcjAre-71" value="话务回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x5fJgK1X47zH9QWcjAre-10">
+          <mxGeometry x="25" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="x5fJgK1X47zH9QWcjAre-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x5fJgK1X47zH9QWcjAre-6" source="x5fJgK1X47zH9QWcjAre-17" target="x5fJgK1X47zH9QWcjAre-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -366,6 +375,9 @@
           <mxGeometry x="0.0235" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x5fJgK1X47zH9QWcjAre-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x5fJgK1X47zH9QWcjAre-6" source="x5fJgK1X47zH9QWcjAre-37" target="x5fJgK1X47zH9QWcjAre-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
