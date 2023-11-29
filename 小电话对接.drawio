@@ -1,9 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T11:26:02.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="21.7.2" etag="LMyd2JKX2Fgi-qAn3B1R" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T13:24:00.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AxY8ikAryhPs3kb2By6a" version="21.7.2" type="github">
   <diagram name="第 1 页" id="R28cw4T6qADOoaLVlROM">
-    <mxGraphModel>
+    <mxGraphModel dx="2901" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-1" target="kRCR7K3UXGGjis_3XxW6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-1" target="kRCR7K3UXGGjis_3XxW6-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-1" value="坐席" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.application;appType=actor" vertex="1" parent="1">
+          <mxGeometry x="-300" y="390" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-2" target="kRCR7K3UXGGjis_3XxW6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-2" value="坐席发起拨打请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=event" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-4" value="小电话拨打功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="229" y="452.5" width="370" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-7" value="登录小手机软件" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="-60" y="390" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-10" target="kRCR7K3UXGGjis_3XxW6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-10" value="登录电销系统" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="-170" y="510" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-13" target="kRCR7K3UXGGjis_3XxW6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-13" value="点呼服务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+          <mxGeometry x="279" y="510" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-14" target="kRCR7K3UXGGjis_3XxW6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-14" value="构造拨打请求入参&amp;amp;随路信息" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="449" y="510" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-16" target="kRCR7K3UXGGjis_3XxW6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-16" value="工作手机平台-点呼接口" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=service" vertex="1" parent="1">
+          <mxGeometry x="429" y="700" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-19" value="坐席信息绑定功能" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="229" y="100" width="375" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-20" target="kRCR7K3UXGGjis_3XxW6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-20" value="提供电销坐席信息&lt;br&gt;-excel文件" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="284" y="167.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-21" value="导入到MBS指掌易后台进行坐席信息绑定" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="463" y="156.88" width="117" height="96.25" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-24" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;坐席信息数据&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+          <mxGeometry x="10" y="242.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-26" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-20" target="kRCR7K3UXGGjis_3XxW6-24">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="140" y="205" as="sourcePoint" />
+            <mxPoint x="240" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-28" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-7" target="kRCR7K3UXGGjis_3XxW6-24">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="-26" y="215" as="sourcePoint" />
+            <mxPoint x="-200" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-30" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;拨打手机信息&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+          <mxGeometry x="349" y="880" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-31" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;被拨打手机信息&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+          <mxGeometry x="549" y="880" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-32" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-30" target="kRCR7K3UXGGjis_3XxW6-16">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="270" y="842" as="sourcePoint" />
+            <mxPoint x="340" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-33" value="" style="endArrow=block;html=1;endFill=1;startArrow=none;startFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-31">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="569" y="860" as="sourcePoint" />
+            <mxPoint x="500" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-34" target="kRCR7K3UXGGjis_3XxW6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-34" value="调供应商接口发起点呼请求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="660" y="707.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-36" value="拨打/接通回调" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="827" y="707.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-40" value="工作手机平台接收回调" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="670" width="270" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-42" value="处理回调数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="1024" y="707.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-43" target="kRCR7K3UXGGjis_3XxW6-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-43" value="发送mq消息" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="1154" y="707.5" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-44" value="消费回调数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="650" width="370" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-45" target="kRCR7K3UXGGjis_3XxW6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-45" value="解析回调数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="1370" y="707.5" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRCR7K3UXGGjis_3XxW6-46" target="kRCR7K3UXGGjis_3XxW6-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-46" value="更新名单表数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="1490" y="707.5" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kRCR7K3UXGGjis_3XxW6-47" value="更新话单数据" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+          <mxGeometry x="1610" y="707.5" width="90" height="75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
