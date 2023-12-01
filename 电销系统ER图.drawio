@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T11:28:17.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JU590LDQGbkr2pN7iBJE" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T11:32:00.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VT8iP-vqzxFW31w-9xmm" version="22.1.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2331" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2331" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="tel_dept 部门表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="711.13" y="130" width="260" height="100" as="geometry" />
+          <mxGeometry x="700" y="210" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="tel_dept_manager 部门负责人表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="711.13" y="322" width="260" height="128" as="geometry" />
+          <mxGeometry x="700" y="-90" width="260" height="128" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -386,17 +386,6 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYAXHsMJXScv0QTJUN_9-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="501.13" y="480" as="sourcePoint" />
-            <mxPoint x="601.13" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UYAXHsMJXScv0QTJUN_9-20" value="1对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;" vertex="1" connectable="0" parent="UYAXHsMJXScv0QTJUN_9-19">
-          <mxGeometry x="-0.0426" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UYAXHsMJXScv0QTJUN_9-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-20">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="140" y="440" as="sourcePoint" />
@@ -441,7 +430,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYAXHsMJXScv0QTJUN_9-31" value="dept_group_id int 坐席所属组id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UYAXHsMJXScv0QTJUN_9-29">
+        <mxCell id="UYAXHsMJXScv0QTJUN_9-31" value="menu_name varchar 菜单名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UYAXHsMJXScv0QTJUN_9-29">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -457,6 +446,37 @@
         <mxCell id="UYAXHsMJXScv0QTJUN_9-34" value="dept_supplier_id int 坐席所属供应商id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UYAXHsMJXScv0QTJUN_9-32">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UYAXHsMJXScv0QTJUN_9-98" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="770" y="360" as="sourcePoint" />
+            <mxPoint x="1040" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="130" />
+              <mxPoint x="1000" y="130" />
+              <mxPoint x="1010" y="130" />
+              <mxPoint x="1000" y="120" />
+              <mxPoint x="1000" y="120" />
+              <mxPoint x="1000" y="120" />
+              <mxPoint x="1010" y="150" />
+              <mxPoint x="971" y="130" />
+              <mxPoint x="1010" y="120" />
+              <mxPoint x="350" y="465" />
+              <mxPoint x="1020" y="130" />
+              <mxPoint x="1000" y="130" />
+              <mxPoint x="510" y="555" />
+              <mxPoint x="340" y="505" />
+              <mxPoint x="770" y="655" />
+              <mxPoint x="480" y="575" />
+              <mxPoint x="350" y="555" />
+              <mxPoint x="560" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UYAXHsMJXScv0QTJUN_9-99" value="1对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;" vertex="1" connectable="0" parent="UYAXHsMJXScv0QTJUN_9-98">
+          <mxGeometry x="-0.0054" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
