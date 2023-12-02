@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T07:21:16.036Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ATxxsw1kKDbQV6gKP3Hw" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T07:29:13.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7N__-uOtPQSA-s4ya2LU" version="22.1.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="988" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="j25qMS8JwtOt_eP3hICq-1" value="电销对接小手机" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360.00000000000045" y="130" width="730" height="1000" as="geometry" />
+          <mxGeometry x="360.00000000000045" y="130" width="910" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-14" value="坐席" style="swimlane;startSize=20;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-1">
-          <mxGeometry y="20" width="120" height="980" as="geometry" />
+          <mxGeometry y="20" width="120" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-15" value="登录MBS软件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-14">
           <mxGeometry x="19.999999999999545" y="140" width="60" height="40" as="geometry" />
@@ -19,8 +19,11 @@
         <mxCell id="j25qMS8JwtOt_eP3hICq-42" value="填写小结" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-14">
           <mxGeometry x="19.999999999999545" y="440" width="60" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="j25qMS8JwtOt_eP3hICq-52" value="查看录音" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-14">
+          <mxGeometry x="29.999999999999545" y="970" width="60" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-2" value="电销系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-1">
-          <mxGeometry x="120" y="20" width="230" height="980" as="geometry" />
+          <mxGeometry x="120" y="20" width="230" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j25qMS8JwtOt_eP3hICq-2" source="j25qMS8JwtOt_eP3hICq-7">
           <mxGeometry relative="1" as="geometry">
@@ -66,7 +69,7 @@
           <mxGeometry x="54.999999999999545" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-3" value="工作手机平台" style="swimlane;startSize=20;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-1">
-          <mxGeometry x="350" y="20" width="200" height="980" as="geometry" />
+          <mxGeometry x="350" y="20" width="200" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-11" value="导入到指掌易后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-3">
           <mxGeometry x="49.999999999999545" y="40" width="120" height="60" as="geometry" />
@@ -84,7 +87,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-4" value="MBS指掌易" style="swimlane;startSize=20;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-1">
-          <mxGeometry x="550" y="20" width="180" height="980" as="geometry" />
+          <mxGeometry x="550" y="20" width="180" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-12" value="存储坐席工号与手机号对应关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-4">
           <mxGeometry x="29.999999999999545" y="40" width="120" height="60" as="geometry" />
@@ -102,6 +105,12 @@
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-30" value="回调呼叫结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-4">
           <mxGeometry x="29.999999999999545" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j25qMS8JwtOt_eP3hICq-51" value="录音服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-1">
+          <mxGeometry x="730" y="20" width="180" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="j25qMS8JwtOt_eP3hICq-53" value="录音接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j25qMS8JwtOt_eP3hICq-51">
+          <mxGeometry x="29.999999999999545" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j25qMS8JwtOt_eP3hICq-1" source="j25qMS8JwtOt_eP3hICq-11" target="j25qMS8JwtOt_eP3hICq-12">
           <mxGeometry relative="1" as="geometry" />
@@ -144,6 +153,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j25qMS8JwtOt_eP3hICq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j25qMS8JwtOt_eP3hICq-1" source="j25qMS8JwtOt_eP3hICq-42" target="j25qMS8JwtOt_eP3hICq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j25qMS8JwtOt_eP3hICq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j25qMS8JwtOt_eP3hICq-1" source="j25qMS8JwtOt_eP3hICq-52" target="j25qMS8JwtOt_eP3hICq-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
