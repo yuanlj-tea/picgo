@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T05:53:45.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="RDDnhLtQe69afcAqhOW5" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T05:58:06.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="rUPdUYhbkFYAv4BZpuHJ" version="22.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1728" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,11 +46,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gLdE-QhClBPgRxDVnxu4-15" value="3、分批消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=0" parent="gLdE-QhClBPgRxDVnxu4-14" vertex="1" connectable="0">
-          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
-            <mxPoint x="53" y="-53" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gLdE-QhClBPgRxDVnxu4-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gLdE-QhClBPgRxDVnxu4-10" target="0QXstFSb4oRgifQFhRum-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="420" as="targetPoint" />
@@ -63,6 +58,11 @@
         <mxCell id="gLdE-QhClBPgRxDVnxu4-20" value="3.2、标签策略" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=0" parent="gLdE-QhClBPgRxDVnxu4-17" vertex="1" connectable="0">
           <mxGeometry x="0.6467" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-40" value="3、分批消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="gLdE-QhClBPgRxDVnxu4-17">
+          <mxGeometry x="-0.757" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gLdE-QhClBPgRxDVnxu4-10" value="rocketmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;rounded=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
