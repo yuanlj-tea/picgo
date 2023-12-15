@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T04:44:56.729Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="m1iBBs9rO4-eNT7rnTbe" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T04:46:40.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="aByxyv2tgyNbpCs9ug22" version="22.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1728" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,6 +280,14 @@
         <mxCell id="2kfFUkeNst7DjbefP4rm-30" value="预测外呼池" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;rounded=1;labelBackgroundColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="945" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kfFUkeNst7DjbefP4rm-32" target="0QXstFSb4oRgifQFhRum-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-23" value="12、智能巡航" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="0QXstFSb4oRgifQFhRum-22">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2kfFUkeNst7DjbefP4rm-32" value="案件跟进池" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="265" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
@@ -305,10 +313,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0QXstFSb4oRgifQFhRum-1" value="9.1、按比例分配" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1089" width="160" height="60" as="geometry" />
+          <mxGeometry x="120" y="1039" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0QXstFSb4oRgifQFhRum-2" target="0QXstFSb4oRgifQFhRum-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0QXstFSb4oRgifQFhRum-2" value="9.2、按坐席均分" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="1089" width="160" height="60" as="geometry" />
+          <mxGeometry x="360" y="1039" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0QXstFSb4oRgifQFhRum-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0QXstFSb4oRgifQFhRum-4" target="0QXstFSb4oRgifQFhRum-6">
           <mxGeometry relative="1" as="geometry" />
@@ -342,6 +353,12 @@
             <mxPoint x="385" y="1395" as="sourcePoint" />
             <mxPoint x="560" y="1370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-19" value="9.3、分案统计" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="1159" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0QXstFSb4oRgifQFhRum-21" value="案件跟进池" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
