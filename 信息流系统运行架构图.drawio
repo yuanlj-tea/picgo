@@ -1,80 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T03:15:08.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ZzDbCpSmBxs-t_3k6SZq" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T05:55:31.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="uzBZR9akdrtlXO9ThAef" version="22.1.11" type="github">
   <diagram name="第 1 页" id="t7pbfHn2SOXymXCN76dh">
-    <mxGraphModel dx="3382" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3382" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ExKMPXudVfr22WV_40Oe-52" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="1720" width="155.5" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="230" width="390" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-23" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="450" width="220" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-22" value="xyf-api-gateway" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="240" width="220" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-21" value="xyf-flow-system" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="240" width="780" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-1" value="人群包投放dmp策略系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-2" value="投放报表拉取" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-4" value="落地页系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="190" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-5" value="策略回传系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="620" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-6" value="价值归因系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="410" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-7" value="配置后台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="620" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-9" value="信息流管理后台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-473" y="-17" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-10" value="rta系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-11" value="人群圈选服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-12" value="人群包投放" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-13" value="策略配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-14" value="广告计划管理后台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-15" value="人群圈选配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-16" value="报表大盘" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-17" value="报表大盘&lt;br&gt;(finbi)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-18" value="告警中心" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-19" value="广告代理商上传素材平台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="-147" width="400" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-25" value="标签系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ExKMPXudVfr22WV_40Oe-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-660" y="1620" width="390" height="210" as="geometry" />
@@ -153,15 +84,6 @@
         </mxCell>
         <mxCell id="ExKMPXudVfr22WV_40Oe-51" value="广告点击曝光数据服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="40" y="1845" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-53" value="广告点击曝光数据存储" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-14.5" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-54" value="广告点击曝光数据服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-14.5" y="395" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ExKMPXudVfr22WV_40Oe-55" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="270" width="155.5" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
