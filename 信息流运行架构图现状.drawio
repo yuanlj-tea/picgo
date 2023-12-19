@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T05:50:39.528Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="DZmOXz8_W4FG3TNFqnYX" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T05:51:39.903Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="n9BN9FERnvVM7xopHZxr" version="22.1.11" type="github">
   <diagram name="第 1 页" id="5njQPk8m6PvZPKcmq6S2">
-    <mxGraphModel dx="3382" dy="3432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3382" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
           <mxGeometry x="620" y="-120" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nWeuy2JTWFIwtImtD7Wy-5" value="&lt;b&gt;xyf-flow-system&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="-584" width="1200" height="520" as="geometry" />
+          <mxGeometry x="-1000" y="110" width="1700" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="nWeuy2JTWFIwtImtD7Wy-6" value="投放报表拉取" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-210" y="1040" width="120" height="60" as="geometry" />
@@ -99,45 +99,6 @@
         </mxCell>
         <mxCell id="nWeuy2JTWFIwtImtD7Wy-13" value="广告行为数据接收" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-350" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-16" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="-710" width="390" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-17" value="人群包投放dmp策略系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="-580" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-18" value="信息流管理后台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1323" y="-957" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-19" value="rta系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="-870" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-20" value="人群圈选服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="-700" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-21" value="策略配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="-850" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-22" value="广告计划管理后台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="-1070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-23" value="人群圈选配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="-960" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-24" value="报表大盘" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="-420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-25" value="告警中心" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="-300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-26" value="广告代理商上传素材平台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="-1180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="-1087" width="400" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="nWeuy2JTWFIwtImtD7Wy-28" value="标签系统" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nWeuy2JTWFIwtImtD7Wy-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="nWeuy2JTWFIwtImtD7Wy-29" target="nWeuy2JTWFIwtImtD7Wy-30">
           <mxGeometry relative="1" as="geometry">
