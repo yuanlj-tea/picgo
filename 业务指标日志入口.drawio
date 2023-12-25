@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T07:29:32.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="jENnv3sx95CTj4hvVKw6" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T07:58:02.900Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="SQSwDfpRbrsA_Ko_s7Cj" version="22.1.11" type="github">
   <diagram name="第 1 页" id="6bG6NZmxF12_Gp5pn3qx">
     <mxGraphModel dx="3382" dy="-75" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="n33hHqA8tef4DvY8bRN8-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="n33hHqA8tef4DvY8bRN8-16" target="n33hHqA8tef4DvY8bRN8-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n33hHqA8tef4DvY8bRN8-16" value="&lt;b&gt;流程调度中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="n33hHqA8tef4DvY8bRN8-16" value="&lt;b&gt;客户产品中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="1405" width="130" height="210" as="geometry" />
         </mxCell>
         <mxCell id="n33hHqA8tef4DvY8bRN8-1" value="注册" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
