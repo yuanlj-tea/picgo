@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T06:32:17.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="H3RdBaVeVoRt1uJ7ox6s" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T06:37:51.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fkRfPjZyBq1yX5chtKmV" version="22.1.11" type="github">
   <diagram name="第 1 页" id="goYHLil8WyDpOzmgTZdG">
     <mxGraphModel dx="1728" dy="-75" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="294" y="2950" width="690" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-45" target="TPp2dkbhE7au2IlM2yMP-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -36,13 +39,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="470" y="2408" width="451" height="110" as="geometry" />
+          <mxGeometry x="470" y="2390" width="451" height="128" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;dashed=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="61" y="2430" width="150" height="360" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-21" value="落地页拖拽灵活定制" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="76" y="2484" width="120" height="60" as="geometry" />
+          <mxGeometry x="76" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-22" value="ab灰度配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="76" y="2600" width="120" height="60" as="geometry" />
@@ -110,7 +113,7 @@
           <mxGeometry x="60" y="2429" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-47" value="2、展示决策" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="469" y="2407" width="110" height="30" as="geometry" />
+          <mxGeometry x="469" y="2389" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-48" value="3、落地页展示" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="359" y="2570" width="110" height="30" as="geometry" />
@@ -122,8 +125,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="2940" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="847" y="2900" />
-              <mxPoint x="640" y="2900" />
+              <mxPoint x="847" y="2920" />
+              <mxPoint x="639" y="2920" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -133,7 +136,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-51" value="rocketmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;labelBackgroundColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="797" y="2810" width="100" height="60" as="geometry" />
+          <mxGeometry x="797" y="2840" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-49" target="TPp2dkbhE7au2IlM2yMP-51">
           <mxGeometry relative="1" as="geometry" />
@@ -152,14 +155,46 @@
         <mxCell id="TPp2dkbhE7au2IlM2yMP-61" value="添加邀请关系" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="845" y="2990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TPp2dkbhE7au2IlM2yMP-62" value="注册事件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-62" value="注册事件上报" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="305" y="2990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TPp2dkbhE7au2IlM2yMP-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="295" y="2950" width="690" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TPp2dkbhE7au2IlM2yMP-64" value="4、异步处理注册事件" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="295" y="2950" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-65" value="验证码出错误过多监控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-66" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-65" target="TPp2dkbhE7au2IlM2yMP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-67" target="TPp2dkbhE7au2IlM2yMP-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="2870" />
+              <mxPoint x="960" y="2805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-67" value="注册接口响应耗时监控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-68" target="TPp2dkbhE7au2IlM2yMP-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-68" value="加载速度监控，影响体验" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="TPp2dkbhE7au2IlM2yMP-70" target="TPp2dkbhE7au2IlM2yMP-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="2910" />
+              <mxPoint x="960" y="2910" />
+              <mxPoint x="960" y="2805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPp2dkbhE7au2IlM2yMP-70" value="验证码触达时效监控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
