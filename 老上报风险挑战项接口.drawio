@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T16:08:03.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="n2eqQrYLxq6f7CpCn-UP" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T16:38:08.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="noX1PyDOGYl6QoCaKyHV" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JNElA6cdX9qi_Tzrcurr-80" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;fillColor=none;strokeWidth=2;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="150" y="1820" width="670" height="640" as="geometry" />
+          <mxGeometry x="150" y="1820" width="930" height="640" as="geometry" />
         </mxCell>
         <mxCell id="JNElA6cdX9qi_Tzrcurr-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="JNElA6cdX9qi_Tzrcurr-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -263,6 +263,9 @@
         <mxCell id="JNElA6cdX9qi_Tzrcurr-75" value="进件表的apply_status是否为SUCCESS" style="rhombus;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="2240" width="200" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JNElA6cdX9qi_Tzrcurr-78" target="HlzpwyZfcg1zjpiCxhPv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JNElA6cdX9qi_Tzrcurr-78" value="创建FaceVerify数据" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="2370" width="120" height="60" as="geometry" />
         </mxCell>
@@ -353,6 +356,21 @@
         </mxCell>
         <mxCell id="HlzpwyZfcg1zjpiCxhPv-21" value="更新cash_out_apply表数据的challenge_item字段" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="392.5" y="3000" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HlzpwyZfcg1zjpiCxhPv-23" target="HlzpwyZfcg1zjpiCxhPv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-23" value="获取默认人脸照片识别对象" style="whiteSpace=wrap;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HlzpwyZfcg1zjpiCxhPv-25" target="HlzpwyZfcg1zjpiCxhPv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-25" value="获取用户的对比照" style="whiteSpace=wrap;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlzpwyZfcg1zjpiCxhPv-27" value="获取无源biz_token数据" style="whiteSpace=wrap;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="2370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
