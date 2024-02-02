@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T14:58:02.740Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bVbZyNx2v6GpV5H6XIRH" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T15:01:45.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Mc8bariY9AbEWodx6V80" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="pbYwqyJWvkE5BdoGc-Tp-92" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;fillColor=none;gradientColor=none;strokeWidth=2;dashed=1;strokeColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-413" y="1280" width="3113" height="2900" as="geometry" />
+        </mxCell>
         <mxCell id="bhEaj6wamlyJ2h7lGsD7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bhEaj6wamlyJ2h7lGsD7-1" target="bhEaj6wamlyJ2h7lGsD7-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -866,6 +869,14 @@
         </mxCell>
         <mxCell id="pbYwqyJWvkE5BdoGc-Tp-89" value="返回激活成功的数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1880" y="4070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pbYwqyJWvkE5BdoGc-Tp-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pbYwqyJWvkE5BdoGc-Tp-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1143.5" y="4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbYwqyJWvkE5BdoGc-Tp-95" value="请求gateway的async接口回调结果数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1083.5" y="4240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
