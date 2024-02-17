@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T15:34:27.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="W-6i1osqOxs8Z2fSEylV" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-17T15:58:38.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="luBwfeNmcbmFqjFLFLG7" version="23.1.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="989" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,9 +24,6 @@
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-20" value="返回相应的审批结论数据" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#6666FF;fontColor=#46495D;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-2">
           <mxGeometry x="36" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-52" value="返回授信拒绝" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-2">
-          <mxGeometry x="26" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-64" value="返回审批中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-2">
           <mxGeometry x="26" y="980" width="120" height="60" as="geometry" />
@@ -72,26 +69,17 @@
         <mxCell id="OZoNvrv32u-H_DVouSun-37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-29" target="OZoNvrv32u-H_DVouSun-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-29" value="查询激活状态,传递是否忽略有效期标识" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
+        <mxCell id="OZoNvrv32u-H_DVouSun-29" value="查询激活状态和可用额度,传递是否忽略有效期标识" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
           <mxGeometry x="96" y="415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-39" value="是" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-36" target="OZoNvrv32u-H_DVouSun-38">
+        <mxCell id="OZoNvrv32u-H_DVouSun-81" value="是" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-36" target="OZoNvrv32u-H_DVouSun-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-36" value="授信状态是否为success" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
-          <mxGeometry x="186" y="520" width="116" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-50" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-38" target="OZoNvrv32u-H_DVouSun-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-38" value="查询授信可用额度" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
-          <mxGeometry x="182" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="182" y="520" width="116" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-56" value="否" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-49" target="OZoNvrv32u-H_DVouSun-55">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-49" value="可用额度是否&amp;lt;1000" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
-          <mxGeometry x="171" y="740" width="142" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-62" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-55" target="OZoNvrv32u-H_DVouSun-61">
           <mxGeometry relative="1" as="geometry" />
@@ -126,14 +114,25 @@
         <mxCell id="OZoNvrv32u-H_DVouSun-77" value="组装授信成功的返回数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
           <mxGeometry x="182" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OZoNvrv32u-H_DVouSun-52" value="返回授信拒绝" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
+          <mxGeometry x="-154" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OZoNvrv32u-H_DVouSun-49" value="可用额度是否&amp;lt;1000" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-3">
+          <mxGeometry x="171" y="700" width="142" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OZoNvrv32u-H_DVouSun-53" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-3" source="OZoNvrv32u-H_DVouSun-49" target="OZoNvrv32u-H_DVouSun-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OZoNvrv32u-H_DVouSun-54" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#46495D;" vertex="1" connectable="0" parent="OZoNvrv32u-H_DVouSun-53">
+          <mxGeometry x="0.1728" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-4" value="风控服务" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#6666FF;fontColor=#46495D;" vertex="1" parent="OZoNvrv32u-H_DVouSun-1">
           <mxGeometry x="682" y="20" width="180" height="1510" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-31" value="新查询激活状态接口" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#6666FF;fontColor=#46495D;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-4">
           <mxGeometry x="30" y="415" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-46" value="新查询授信可用额度接口" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="OZoNvrv32u-H_DVouSun-4">
-          <mxGeometry x="30" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-57" value="资金系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#6666FF;fontColor=#46495D;" vertex="1" parent="OZoNvrv32u-H_DVouSun-1">
           <mxGeometry x="862" y="20" width="180" height="1510" as="geometry" />
@@ -167,22 +166,6 @@
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-24" value="true" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-1" source="OZoNvrv32u-H_DVouSun-13" target="OZoNvrv32u-H_DVouSun-20">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-47" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-1" source="OZoNvrv32u-H_DVouSun-38" target="OZoNvrv32u-H_DVouSun-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-48" value="&lt;article data-identifier-application__slash__x-doc-key=&quot;4jKqmVR7B19NOw19&quot; data-identifier-application__slash__x-cangjie-fragment=&quot;JTdCJTIya2xhc3MlMjIlM0ElMjJkb2N1bWVudCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtsYXNzJTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiUyMnV1aWQlMjIlM0ElMjJscmhqZGU3a2ZxdHF6d3MzY20lMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtsYXNzJTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMmtsYXNzJTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJjcmVkaXQlMkZhZ2d0ZW1lbnQtaW5mbyUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE&quot; data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{},[&amp;quot;p&amp;quot;,{&amp;quot;uuid&amp;quot;:&amp;quot;lrhjde7kfqtqzws3cm&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;credit/aggtement-info&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;text-align: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;credit/aggtement-info&lt;/p&gt;&lt;/article&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#46495D;" vertex="1" connectable="0" parent="OZoNvrv32u-H_DVouSun-47">
-          <mxGeometry x="-0.2459" y="3" relative="1" as="geometry">
-            <mxPoint x="17" y="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-53" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-1" source="OZoNvrv32u-H_DVouSun-49" target="OZoNvrv32u-H_DVouSun-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OZoNvrv32u-H_DVouSun-54" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#46495D;" vertex="1" connectable="0" parent="OZoNvrv32u-H_DVouSun-53">
-          <mxGeometry x="0.1728" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="OZoNvrv32u-H_DVouSun-59" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#6666FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="OZoNvrv32u-H_DVouSun-1" source="OZoNvrv32u-H_DVouSun-55" target="OZoNvrv32u-H_DVouSun-58">
           <mxGeometry relative="1" as="geometry" />
