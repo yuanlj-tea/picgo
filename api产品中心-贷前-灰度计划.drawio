@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T06:24:01.380Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iHHF-czMcF3OlZbO7S4Z" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T06:24:41.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="3LkZboA2zhMSeviLGIEo" version="23.1.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2074" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="VPEJIjTYBSFl-zxkoouf-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VPEJIjTYBSFl-zxkoouf-6">
           <mxGeometry x="-0.056" y="2" relative="1" as="geometry">
-            <mxPoint x="58" y="-148" as="offset" />
+            <mxPoint x="58" y="-143" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VPEJIjTYBSFl-zxkoouf-1" value="查渠道表，判断渠道是否要灰度到新系统" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
