@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T09:05:57.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="I6fCT_dmSBLdCRTttWJS" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T09:18:15.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FjHISeeS_Gbd-U_U-WV8" version="23.1.5" type="github">
   <diagram name="第 1 页" id="t7pbfHn2SOXymXCN76dh">
-    <mxGraphModel dx="4555" dy="-112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3435" dy="-654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,7 +596,7 @@
         <mxCell id="GlTJMMhN6k6G1XzNbcjj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="Fehg3TdLuI2Tf_DMjNUd-77" target="Fehg3TdLuI2Tf_DMjNUd-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GlTJMMhN6k6G1XzNbcjj-2" value="6.1、增量回传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GlTJMMhN6k6G1XzNbcjj-1">
+        <mxCell id="GlTJMMhN6k6G1XzNbcjj-2" value="6.1、增量回传，优化媒体投放模型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GlTJMMhN6k6G1XzNbcjj-1">
           <mxGeometry x="0.0405" relative="1" as="geometry">
             <mxPoint x="4" as="offset" />
           </mxGeometry>
@@ -817,6 +817,22 @@
         </mxCell>
         <mxCell id="JP3lVexx1K65jtugNmWr-20" value="dmp标签" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="200" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTJMMhN6k6G1XzNbcjj-4" value="风控激活" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="2510" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTJMMhN6k6G1XzNbcjj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="GlTJMMhN6k6G1XzNbcjj-4" target="Fehg3TdLuI2Tf_DMjNUd-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="2410" />
+              <mxPoint x="1020" y="2410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTJMMhN6k6G1XzNbcjj-6" value="6.3、激活决策" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GlTJMMhN6k6G1XzNbcjj-5">
+          <mxGeometry x="-0.7135" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
