@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:43:11.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MfI_vYAUG8D_6pTQY1sr" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:43:48.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="F7O_IAN_CGk3mGqM4DOA" version="23.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2257" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,13 +105,13 @@
           <mxGeometry x="1490" y="130" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TF3ws9ve5TKawhMXfFgK-66" value="非信息流渠道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TF3ws9ve5TKawhMXfFgK-35">
-          <mxGeometry x="1690" y="185" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TF3ws9ve5TKawhMXfFgK-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="TF3ws9ve5TKawhMXfFgK-35" source="TF3ws9ve5TKawhMXfFgK-64" target="TF3ws9ve5TKawhMXfFgK-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TF3ws9ve5TKawhMXfFgK-67" value="STEP 6&lt;br&gt;&lt;article data-identifier-application__slash__x-doc-key=&quot;4j6OJQr5vJAJq3p8&quot; data-identifier-application__slash__x-cangjie-fragment=&quot;JTdCJTIya2xhc3MlMjIlM0ElMjJkb2N1bWVudCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtsYXNzJTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmpjJTIyJTNBJTIybGVmdCUyMiUyQyUyMmluZCUyMiUzQSU3QiU3RCUyQyUyMnNwYWNpbmclMjIlM0ElN0IlN0QlMkMlMjJ1dWlkJTIyJTNBJTIybHQycXFuOXRyeGV2ejk3bjloYSUyMiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2xhc3MlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIya2xhc3MlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnJlZ2lzdGVyX3BheSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTdCJTIya2xhc3MlMjIlM0ElMjJtYXJrJTIyJTJDJTIydHlwZSUyMiUzQSUyMmNvbG9yJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiUyMnZhbHVlJTIyJTNBJTIycmdiKDYzJTJDJTIwNzQlMkMlMjA4NiklMjIlN0QlN0QlMkMlN0IlMjJrbGFzcyUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyaGlnaGxpZ2h0JTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==&quot; data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{},[&amp;quot;p&amp;quot;,{&amp;quot;jc&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;ind&amp;quot;:{},&amp;quot;spacing&amp;quot;:{},&amp;quot;uuid&amp;quot;:&amp;quot;lt2qqn9trxevz97n9ha&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 74, 86)&amp;quot;,&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;register_pay&amp;quot;]]]]&quot; class=&quot;4ever-article&quot;&gt;&lt;p style=&quot;margin-left: 0px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;自然量归因login_attribution&lt;br&gt;&lt;/p&gt;&lt;/article&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="TF3ws9ve5TKawhMXfFgK-35">
-          <mxGeometry x="1690" y="130" width="130" height="30" as="geometry" />
+          <mxGeometry x="1670" y="130" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TF3ws9ve5TKawhMXfFgK-85" value="提供用户的归因结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TF3ws9ve5TKawhMXfFgK-35">
           <mxGeometry x="1840" y="185" width="120" height="60" as="geometry" />
