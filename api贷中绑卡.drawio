@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T16:10:48.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="GKAPpuUKtL8TyD1ghT2i" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T16:14:06.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="VowuCVwDe9F880EDlXJl" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1824" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="4VWQQhbqRCGnYC1Ltig9-25" value="用户是否已经绑过卡" style="rhombus;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="4VWQQhbqRCGnYC1Ltig9-3" vertex="1">
           <mxGeometry x="70" y="300" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4VWQQhbqRCGnYC1Ltig9-27" value="返回未绑卡" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="4VWQQhbqRCGnYC1Ltig9-3" vertex="1">
+        <mxCell id="4VWQQhbqRCGnYC1Ltig9-27" value="返回异常：未绑卡" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="4VWQQhbqRCGnYC1Ltig9-3" vertex="1">
           <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OXmabP2dTU1GJaqAs303-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4VWQQhbqRCGnYC1Ltig9-3" source="4VWQQhbqRCGnYC1Ltig9-30" target="OXmabP2dTU1GJaqAs303-2">
