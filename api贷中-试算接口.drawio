@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T16:00:45.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="HVGhGLIKbVlMmV-fVIUx" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T16:07:51.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZdAdUhGJu7t36J9Clopu" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1258" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yos79kglov3tE18eudvP-1" value="借款试算" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="110" y="300" width="990" height="790" as="geometry" />
+          <mxGeometry x="110" y="300" width="1500" height="970" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-2" value="xyf-api-gateway" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
-          <mxGeometry y="20" width="140" height="770" as="geometry" />
+          <mxGeometry y="20" width="140" height="950" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-7" value="请求试算" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-2">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-3" value="apiopfcore" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
-          <mxGeometry x="140" y="20" width="480" height="770" as="geometry" />
+          <mxGeometry x="140" y="20" width="450" height="950" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;curved=0;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-8" target="yos79kglov3tE18eudvP-10">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="yos79kglov3tE18eudvP-10" value="新建cash_out_loan_order表数据" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
           <mxGeometry x="40" y="150" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yos79kglov3tE18eudvP-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-12" target="yos79kglov3tE18eudvP-19">
+        <mxCell id="yos79kglov3tE18eudvP-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-12" target="yos79kglov3tE18eudvP-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-12" value="用户是否已开户校验" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
@@ -38,28 +38,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-19" value="请求试算接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
-          <mxGeometry x="40" y="390" width="180" height="60" as="geometry" />
+          <mxGeometry x="40" y="540" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-26" target="yos79kglov3tE18eudvP-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-26" value="构造试算返回结果" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
-          <mxGeometry x="40" y="510" width="180" height="60" as="geometry" />
+          <mxGeometry x="40" y="670" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-30" value="保存试算结果" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="yos79kglov3tE18eudvP-3">
-          <mxGeometry x="70" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-33" target="yos79kglov3tE18eudvP-19">
+          <mxGeometry x="0.0013" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-39" value="新增入参：支持放款期数、&lt;div&gt;还款方式是否仅支持按日计息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="yos79kglov3tE18eudvP-38">
+          <mxGeometry x="0.083" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-33" value="请求查询后台配置" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
+          <mxGeometry x="40" y="390" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-4" value="借款引擎lendtrade" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
-          <mxGeometry x="620" y="20" width="180" height="770" as="geometry" />
+          <mxGeometry x="590" y="20" width="530" height="950" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-21" value="试算接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-4">
-          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-6" value="风控系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
-          <mxGeometry x="800" y="20" width="190" height="770" as="geometry" />
+          <mxGeometry x="1120" y="20" width="190" height="950" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-16" value="额度信息查询接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-6">
           <mxGeometry x="35" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-32" value="商户后台" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
+          <mxGeometry x="1310" y="20" width="190" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-35" value="查询后台配置接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-32">
+          <mxGeometry x="50" y="380" width="135" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-1" source="yos79kglov3tE18eudvP-7" target="yos79kglov3tE18eudvP-8">
           <mxGeometry relative="1" as="geometry" />
@@ -77,6 +96,14 @@
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-25" value="&lt;div&gt;/lend/trade/v1/trial&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="yos79kglov3tE18eudvP-22">
           <mxGeometry x="-0.0602" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-36" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-1" source="yos79kglov3tE18eudvP-33" target="yos79kglov3tE18eudvP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-37" value="按innert-app查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="yos79kglov3tE18eudvP-36">
+          <mxGeometry x="-0.0547" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
