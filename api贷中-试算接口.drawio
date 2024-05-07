@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T16:43:07.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="VMwCnhZBlS_LfJ5BysAD" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T16:43:31.437Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ArpYrkIUPeBs79E7iO3T" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1258" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,14 @@
         <mxCell id="yos79kglov3tE18eudvP-42" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;试算逻辑是否有异常&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" parent="yos79kglov3tE18eudvP-3">
           <mxGeometry x="265" y="670" width="170" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="yos79kglov3tE18eudvP-3" source="yos79kglov3tE18eudvP-43" target="yos79kglov3tE18eudvP-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-43" value="1、试算失败没超过3天，按策略返回试算失败原因&lt;div&gt;2、试算失败超过3天，返回请下单试试引导用户下单&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="yos79kglov3tE18eudvP-3">
           <mxGeometry x="170" y="900" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yos79kglov3tE18eudvP-50" value="保存试算失败原因" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;labelBackgroundColor=none;" vertex="1" parent="yos79kglov3tE18eudvP-3">
+          <mxGeometry x="200" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yos79kglov3tE18eudvP-4" value="借款引擎lendtrade" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="yos79kglov3tE18eudvP-1">
           <mxGeometry x="590" y="20" width="280" height="1170" as="geometry" />
