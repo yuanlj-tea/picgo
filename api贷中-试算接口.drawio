@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T16:09:24.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="rLXNz9lcPFlez76aqAFH" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T16:36:19.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8qTW_mJyb_FQRlUwl9Rl" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1258" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yos79kglov3tE18eudvP-39" value="新增入参：支持放款期数、&lt;div&gt;还款方式是否仅支持按日计息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="yos79kglov3tE18eudvP-38">
+        <mxCell id="yos79kglov3tE18eudvP-39" value="新增入参：支持放款期数、&lt;div&gt;还款方式是否仅支持按日计息、&lt;/div&gt;&lt;div&gt;试算失败是否返回默认还款计划&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="yos79kglov3tE18eudvP-38">
           <mxGeometry x="0.083" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
