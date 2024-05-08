@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T16:14:18.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="H6bjC5c6hpFGoDMI-ymi" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T16:45:08.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="cmj9SDDvKq_Ej8Rn_hgl" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1258" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-5" value="借款申请-走接口" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="160" y="270" width="1110" height="1670" as="geometry" />
+          <mxGeometry x="160" y="270" width="1110" height="2000" as="geometry" />
         </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-6" value="api-gateway" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="kBS4GnMYo1nyq-wL4GCF-5" vertex="1">
-          <mxGeometry y="20" width="180" height="1650" as="geometry" />
+          <mxGeometry y="20" width="180" height="1980" as="geometry" />
         </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-9" value="发起借款申请" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="kBS4GnMYo1nyq-wL4GCF-6" vertex="1">
           <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
@@ -16,8 +16,11 @@
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-45" value="放款失败结果推送给渠道" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" parent="kBS4GnMYo1nyq-wL4GCF-6" vertex="1">
           <mxGeometry x="30" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-17" value="接收审核结果数据，推给渠道" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-6">
+          <mxGeometry x="30" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-7" value="apiopfcore" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="kBS4GnMYo1nyq-wL4GCF-5" vertex="1">
-          <mxGeometry x="180" y="20" width="380" height="1650" as="geometry" />
+          <mxGeometry x="180" y="20" width="380" height="1980" as="geometry" />
         </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="kBS4GnMYo1nyq-wL4GCF-7" source="kBS4GnMYo1nyq-wL4GCF-10" target="kBS4GnMYo1nyq-wL4GCF-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -79,8 +82,11 @@
         <mxCell id="8KQEzyW5nk0XGp58ErAA-8" value="1、cash_out_loan_order表关联老系统CashLoanOrder表的order_number&lt;div&gt;2、&lt;span style=&quot;background-color: initial;&quot;&gt;cash_out_loan_order表新增字段记录借款引擎的借款订单号&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;align=left;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-7">
           <mxGeometry x="20" y="1480" width="330" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-15" value="更新订单状态，推送审核结果给渠道" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-7">
+          <mxGeometry x="125" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-8" value="借款引擎lendtrade" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="kBS4GnMYo1nyq-wL4GCF-5" vertex="1">
-          <mxGeometry x="560" y="20" width="330" height="1650" as="geometry" />
+          <mxGeometry x="560" y="20" width="330" height="1980" as="geometry" />
         </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-16" value="请求订单校验" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="kBS4GnMYo1nyq-wL4GCF-8" vertex="1">
           <mxGeometry x="-300" y="490" width="120" height="60" as="geometry" />
@@ -117,8 +123,17 @@
         <mxCell id="8KQEzyW5nk0XGp58ErAA-5" value="创单接口" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-8">
           <mxGeometry x="105" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-12" value="生产" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kBS4GnMYo1nyq-wL4GCF-8" source="8KQEzyW5nk0XGp58ErAA-10" target="8KQEzyW5nk0XGp58ErAA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-10" value="发送放款mq消息" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-8">
+          <mxGeometry x="100" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-11" value="rocketmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="kBS4GnMYo1nyq-wL4GCF-8">
+          <mxGeometry x="110" y="1650" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-36" value="风控系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="kBS4GnMYo1nyq-wL4GCF-5" vertex="1">
-          <mxGeometry x="890" y="20" width="220" height="1650" as="geometry" />
+          <mxGeometry x="890" y="20" width="220" height="1980" as="geometry" />
         </mxCell>
         <mxCell id="kBS4GnMYo1nyq-wL4GCF-35" value="风控激活状态查询接口" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="kBS4GnMYo1nyq-wL4GCF-36" vertex="1">
           <mxGeometry x="50" y="870" width="120" height="60" as="geometry" />
@@ -150,6 +165,23 @@
           <mxGeometry x="-0.1608" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kBS4GnMYo1nyq-wL4GCF-5" source="8KQEzyW5nk0XGp58ErAA-11" target="8KQEzyW5nk0XGp58ErAA-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1750.034482758621" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1750" />
+              <mxPoint x="370" y="1750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-16" value="消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8KQEzyW5nk0XGp58ErAA-14">
+          <mxGeometry x="0.0323" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KQEzyW5nk0XGp58ErAA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kBS4GnMYo1nyq-wL4GCF-5" source="8KQEzyW5nk0XGp58ErAA-15" target="8KQEzyW5nk0XGp58ErAA-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
