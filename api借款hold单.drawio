@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T11:48:44.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="NVXi0owTtAZcPYziyVTg" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T11:51:46.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="h6KAVIOn2Fas9H5yGBbi" version="24.4.14" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1243" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tmySvrbRdzc1KA4MEMWT-1" value="api借款hold单" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="190" y="250" width="1220" height="800" as="geometry" />
+          <mxGeometry x="190" y="250" width="1220" height="930" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-5" value="xyf-app-api" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry y="20" width="160" height="780" as="geometry" />
+          <mxGeometry y="20" width="160" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-35" value="登录app" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-5">
           <mxGeometry x="35" y="470" width="90" height="40" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-2" value="apiopfcore" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="160" y="20" width="230" height="780" as="geometry" />
+          <mxGeometry x="160" y="20" width="230" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="tmySvrbRdzc1KA4MEMWT-2" source="tmySvrbRdzc1KA4MEMWT-8" target="tmySvrbRdzc1KA4MEMWT-12">
           <mxGeometry relative="1" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="55" y="680" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-7" value="apiopfcore存储" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="390" y="20" width="170" height="780" as="geometry" />
+          <mxGeometry x="390" y="20" width="170" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-14" value="redis" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-7">
           <mxGeometry x="60" y="110" width="35" height="30" as="geometry" />
@@ -79,25 +79,31 @@
           <mxGeometry x="60" y="345" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-3" value="xyf-cdp麻雀" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="560" y="20" width="180" height="780" as="geometry" />
+          <mxGeometry x="560" y="20" width="180" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-9" value="是否hold单接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-3">
           <mxGeometry x="45" y="50" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-4" value="lendtrade" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="740" y="20" width="160" height="780" as="geometry" />
+          <mxGeometry x="740" y="20" width="160" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-23" value="下单接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-4">
           <mxGeometry x="34.999999999999545" y="260" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tmySvrbRdzc1KA4MEMWT-50" value="取消卡单接口" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-4">
+          <mxGeometry x="35" y="690" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tmySvrbRdzc1KA4MEMWT-52" value="卡单时间到了，自动取消卡单" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-4">
+          <mxGeometry x="35" y="800" width="90" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-6" value="营销触达(短信/电销...)" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="900" y="20" width="160" height="780" as="geometry" />
+          <mxGeometry x="900" y="20" width="160" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-28" value="营销触达，谁来触发，怎么触发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-6">
           <mxGeometry x="40" y="315" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-29" value="下载app落地页" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-1">
-          <mxGeometry x="1060" y="20" width="160" height="780" as="geometry" />
+          <mxGeometry x="1060" y="20" width="160" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="tmySvrbRdzc1KA4MEMWT-29" source="tmySvrbRdzc1KA4MEMWT-30" target="tmySvrbRdzc1KA4MEMWT-33">
           <mxGeometry relative="1" as="geometry" />
@@ -107,9 +113,6 @@
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-33" value="下载信飞app" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-29">
           <mxGeometry x="35" y="470" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tmySvrbRdzc1KA4MEMWT-50" value="取消卡单接口" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="tmySvrbRdzc1KA4MEMWT-29">
-          <mxGeometry x="35" y="690" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tmySvrbRdzc1KA4MEMWT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="tmySvrbRdzc1KA4MEMWT-1" source="tmySvrbRdzc1KA4MEMWT-8" target="tmySvrbRdzc1KA4MEMWT-9">
           <mxGeometry relative="1" as="geometry" />
