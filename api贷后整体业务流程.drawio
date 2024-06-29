@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-29T10:40:00.070Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="k8IRb712c7VpkoJrcUm9" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-29T10:40:30.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="XMeF3cLDwTNRjWMDpVd3" version="24.6.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1243" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
         <mxCell id="-heLOFPa16gDdDhZMKge-5" value="账务系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="-heLOFPa16gDdDhZMKge-1">
           <mxGeometry x="990" y="20" width="270" height="2100" as="geometry" />
         </mxCell>
-        <mxCell id="-heLOFPa16gDdDhZMKge-86" value="通用还款计划查询接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="-heLOFPa16gDdDhZMKge-5">
+        <mxCell id="-heLOFPa16gDdDhZMKge-86" value="通用还款计划查询接口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="-heLOFPa16gDdDhZMKge-5">
           <mxGeometry x="90" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-heLOFPa16gDdDhZMKge-94" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="-heLOFPa16gDdDhZMKge-5" source="-heLOFPa16gDdDhZMKge-91" target="-heLOFPa16gDdDhZMKge-93">
