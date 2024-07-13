@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T03:35:15.260Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UMvLih8XLl9Qc0XzAaig" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T03:36:30.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Li61A48dbchKZOXMMVWL" version="24.6.5" type="github">
   <diagram name="第 1 页" id="T6tjTBDRIPamw2wBfF-t">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="Ng7Y1VYIj2yAgb9GkoAW-15" value="额度放开数据落表" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
           <mxGeometry x="460" y="355" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ng7Y1VYIj2yAgb9GkoAW-16" value="推送消息给渠道" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+        <mxCell id="Ng7Y1VYIj2yAgb9GkoAW-16" value="推送额度变更消息给渠道" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
           <mxGeometry x="466" y="455" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ng7Y1VYIj2yAgb9GkoAW-17" value="放开过期或用户下单后自动推送额度变更消息给渠道" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
