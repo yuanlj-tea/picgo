@@ -97,7 +97,7 @@
         <mxCell id="114" value="7.4" style="strokeColor=#DEEDFF" parent="1" vertex="1">
           <mxGeometry x="86.50000000000027" y="580.0000000000013" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="115" value="查风控用户信息和风控前筛决策结果" style="align=left;strokeColor=#DEEDFF" parent="1" vertex="1">
+        <mxCell id="115" value="查风控用户信息和风控前筛决策结果" style="align=left;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="126.50000000000027" y="580.0000000000013" width="319.9999999999997" height="20" as="geometry" />
         </mxCell>
         <mxCell id="116" value="170~300ms" style="strokeColor=#DEEDFF" parent="1" vertex="1">
@@ -138,9 +138,6 @@
         </mxCell>
         <mxCell id="136" value="5ms" style="strokeColor=#DEEDFF;fillColor=#FFFFFF" parent="1" vertex="1">
           <mxGeometry x="446.50000000000136" y="660.0000000000018" width="80.00000000000028" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="203" value="" style="strokeColor=#DEEDFF" parent="1" vertex="1">
-          <mxGeometry x="726.5000000000016" y="380.00000000001114" width="20" height="520" as="geometry" />
         </mxCell>
         <mxCell id="2" value="任务名" style="strokeWidth=0;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="126.5" y="340" width="320" height="40" as="geometry" />
