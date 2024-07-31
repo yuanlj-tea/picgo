@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="Page-1" id="8378b5f6-a2b2-b727-a746-972ab9d02e00">
-    <mxGraphModel dx="1243" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,13 +175,13 @@
         <mxCell id="257" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
           <mxGeometry x="782.75" y="580" width="330" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="258" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
+        <mxCell id="258" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=default;strokeWidth=1;opacity=50" parent="1" vertex="1">
           <mxGeometry x="782.75" y="600" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="259" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
+        <mxCell id="259" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=default;strokeWidth=1;opacity=50" parent="1" vertex="1">
           <mxGeometry x="783" y="620" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="260" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
+        <mxCell id="260" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=default;strokeWidth=1;opacity=50" parent="1" vertex="1">
           <mxGeometry x="783" y="640" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P8YnP3cFqLyso31QBVil-281" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" vertex="1" parent="1">
