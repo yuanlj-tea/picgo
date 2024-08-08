@@ -147,6 +147,11 @@
         <mxCell id="4-QW9x0aCZNzlzGPrkt--30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="4-QW9x0aCZNzlzGPrkt--1" source="4-QW9x0aCZNzlzGPrkt--27" target="4-QW9x0aCZNzlzGPrkt--29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4-QW9x0aCZNzlzGPrkt--57" value="得物放款申请流水号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="4-QW9x0aCZNzlzGPrkt--30">
+          <mxGeometry x="-0.5034" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4-QW9x0aCZNzlzGPrkt--28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" edge="1" parent="4-QW9x0aCZNzlzGPrkt--1" source="4-QW9x0aCZNzlzGPrkt--17" target="4-QW9x0aCZNzlzGPrkt--27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
