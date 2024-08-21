@@ -65,10 +65,10 @@
           <mxGeometry x="120" y="651.5" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-25" value="激活" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="747" width="90" height="40" as="geometry" />
+          <mxGeometry y="713" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-26" value="贷前绑卡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="747" width="90" height="40" as="geometry" />
+          <mxGeometry x="120" y="713" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-28" value="sls日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="750" y="570" width="90" height="40" as="geometry" />
@@ -121,17 +121,17 @@
             <mxPoint x="720" y="1205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sWWA4bZMYuXRyUqMkDCf-44" value="CICD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sWWA4bZMYuXRyUqMkDCf-44" value="devops" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-280" y="1210" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-150" y="1210" width="860" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-46" value="jenkins" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="1246.5" width="110" height="37" as="geometry" />
+          <mxGeometry x="-32.5" y="1246.5" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="sWWA4bZMYuXRyUqMkDCf-47" value="k8s" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="359" y="1246.5" width="110" height="37" as="geometry" />
+        <mxCell id="sWWA4bZMYuXRyUqMkDCf-47" value="ecs/k8s" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="178" y="1246.5" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-49" value="贷中绑卡" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="260" y="651.5" width="90" height="40" as="geometry" />
@@ -279,6 +279,12 @@
         </mxCell>
         <mxCell id="XegBzm43TF2em2KgTWJF-0" value="还款结果查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="491" y="747" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XegBzm43TF2em2KgTWJF-1" value="熔断&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;限流&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 降级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="590" width="840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XegBzm43TF2em2KgTWJF-2" value="用户数据认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="780" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
