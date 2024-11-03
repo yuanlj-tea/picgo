@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" modified="2024-11-03T04:40:56.832Z" version="24.6.4" etag="LMKmEsQI2Qh3gT-YESHY" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" modified="2024-11-03T04:42:27.086Z" version="24.6.4" etag="CtTdaFaNT6MHU6ezTC6z" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1831" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -550,7 +550,7 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-156" value="接收本息子单扣款结果" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="AmnlFDWiRIgeQjx7V4B--9">
           <mxGeometry x="69" y="3300" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-256" value="包括：&lt;div&gt;1. 批扣&lt;/div&gt;&lt;div&gt;2.切扣&lt;/div&gt;&lt;div&gt;3.客服线下还款&lt;/div&gt;&lt;div&gt;4.线下对公还款&lt;/div&gt;&lt;div&gt;5.聚合收银台&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="AmnlFDWiRIgeQjx7V4B--9">
+        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-256" value="包括：&lt;div&gt;1. 批扣&lt;/div&gt;&lt;div&gt;2.切扣&lt;/div&gt;&lt;div&gt;3.客服减免&lt;/div&gt;&lt;div&gt;4.线下对公还款&lt;/div&gt;&lt;div&gt;5.聚合收银台&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="AmnlFDWiRIgeQjx7V4B--9">
           <mxGeometry x="58" y="4317" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--5" value="资金系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
