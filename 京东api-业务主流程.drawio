@@ -883,7 +883,7 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-53" target="WQbkwpJgoc6u_0-LjvOQ-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-57" value="返回主单扣款结果给京东借钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="WQbkwpJgoc6u_0-LjvOQ-56" vertex="1" connectable="0">
+        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-57" value="返回主单扣款结果给京东借钱，只会通知扣款成功的，扣款失败的不会通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="WQbkwpJgoc6u_0-LjvOQ-56" vertex="1" connectable="0">
           <mxGeometry x="0.1767" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
