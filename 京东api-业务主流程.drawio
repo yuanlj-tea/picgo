@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1798" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2134" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -595,7 +595,7 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-101" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求拉取资方入账结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--5" vertex="1">
           <mxGeometry x="40" y="2690" width="89" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-105" value="通知资方入账" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--5" vertex="1">
+        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-105" value="通知资方入账" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;fontColor=#333333;" parent="AmnlFDWiRIgeQjx7V4B--5" vertex="1">
           <mxGeometry x="40" y="2563" width="89" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-188" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;线下对公还款通知&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--5" vertex="1">
@@ -622,13 +622,19 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-21" value="接收本息子单还款请求" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
           <mxGeometry x="28" y="2110" width="90" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AmnlFDWiRIgeQjx7V4B--10" source="WQbkwpJgoc6u_0-LjvOQ-71" target="WQbkwpJgoc6u_0-LjvOQ-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-71" value="接收本息子单扣款结果" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
           <mxGeometry x="25" y="2420" width="89" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-102" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;资方入账结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
-          <mxGeometry x="28" y="2690" width="89" height="34" as="geometry" />
+          <mxGeometry x="25" y="2690" width="89" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-107" value="资方入账" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
+        <mxCell id="37sPxRJ08r3qUv_0azSB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AmnlFDWiRIgeQjx7V4B--10" source="WQbkwpJgoc6u_0-LjvOQ-107" target="WQbkwpJgoc6u_0-LjvOQ-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-107" value="资方入账" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;fontColor=#333333;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
           <mxGeometry x="25" y="2563" width="89" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-190" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新还款计划&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
@@ -1077,6 +1083,15 @@
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-267" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-264" target="WQbkwpJgoc6u_0-LjvOQ-260" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-81" target="WQbkwpJgoc6u_0-LjvOQ-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="2550" />
+              <mxPoint x="910" y="2550" />
+              <mxPoint x="910" y="2667" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-43" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="WQbkwpJgoc6u_0-LjvOQ-38" target="WQbkwpJgoc6u_0-LjvOQ-42" edge="1">
           <mxGeometry relative="1" as="geometry">
