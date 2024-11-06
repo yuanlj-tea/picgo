@@ -448,7 +448,7 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-84" value="接收费用项子单扣款结果" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="AmnlFDWiRIgeQjx7V4B--6" vertex="1">
           <mxGeometry x="53" y="2480" width="89" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AmnlFDWiRIgeQjx7V4B--6" source="WQbkwpJgoc6u_0-LjvOQ-94" target="WQbkwpJgoc6u_0-LjvOQ-98" edge="1">
+        <mxCell id="WQbkwpJgoc6u_0-LjvOQ-97" value="&lt;font color=&quot;#ff0000&quot;&gt;改为不以主单通知入账，以子单通知入账&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AmnlFDWiRIgeQjx7V4B--6" source="WQbkwpJgoc6u_0-LjvOQ-94" target="WQbkwpJgoc6u_0-LjvOQ-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="103.77142857142849" y="2664" as="targetPoint" />
           </mxGeometry>
@@ -921,11 +921,21 @@
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-99" target="WQbkwpJgoc6u_0-LjvOQ-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-8" value="这里待定是否有必要，&lt;div&gt;是否以资方本息子单扣款结果通知为资方入账依据即可&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;" vertex="1" connectable="0" parent="WQbkwpJgoc6u_0-LjvOQ-103">
+          <mxGeometry x="-0.0552" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-101" target="WQbkwpJgoc6u_0-LjvOQ-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-106" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-94" target="WQbkwpJgoc6u_0-LjvOQ-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-7" value="&lt;font color=&quot;#ff0000&quot;&gt;不用通知了&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="WQbkwpJgoc6u_0-LjvOQ-106">
+          <mxGeometry x="-0.0124" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-108" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" parent="AmnlFDWiRIgeQjx7V4B--1" source="WQbkwpJgoc6u_0-LjvOQ-105" target="WQbkwpJgoc6u_0-LjvOQ-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
