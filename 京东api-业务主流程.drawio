@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AmnlFDWiRIgeQjx7V4B--1" value="京东API-业务主流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="230" y="300" width="1870" height="4760" as="geometry" />
+          <mxGeometry x="230" y="300" width="1915" height="4760" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--2" value="京东借钱" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
           <mxGeometry y="20" width="150" height="4740" as="geometry" />
@@ -343,7 +343,7 @@
           <mxGeometry x="37.5" y="4440" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--7" value="借款引擎" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="520" y="20" width="150" height="4740" as="geometry" />
+          <mxGeometry x="520" y="20" width="195" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#B2C9AB;" parent="AmnlFDWiRIgeQjx7V4B--7" source="AmnlFDWiRIgeQjx7V4B--86" target="AmnlFDWiRIgeQjx7V4B--94" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -389,8 +389,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-5" value="需要增加按手机号、&lt;div&gt;身份证号黑名单功能&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="AmnlFDWiRIgeQjx7V4B--7">
+          <mxGeometry x="30" y="225" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="37sPxRJ08r3qUv_0azSB-6" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="37sPxRJ08r3qUv_0azSB-5" parent="AmnlFDWiRIgeQjx7V4B--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="257" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--6" value="还款引擎" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="670" y="20" width="220" height="4740" as="geometry" />
+          <mxGeometry x="715" y="20" width="220" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--100" value="这部分数据不&lt;div&gt;能影响风控模型&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;" parent="AmnlFDWiRIgeQjx7V4B--6" vertex="1">
           <mxGeometry x="34.999999999999545" y="1305" width="120" height="40" as="geometry" />
@@ -518,7 +526,7 @@
           <mxGeometry x="65" y="4440" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--9" value="支付系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="890" y="20" width="228" height="4740" as="geometry" />
+          <mxGeometry x="935" y="20" width="228" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--133" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;labelBackgroundColor=default;endArrow=classic;fillColor=#f8cecc;" parent="AmnlFDWiRIgeQjx7V4B--9" source="AmnlFDWiRIgeQjx7V4B--67" target="AmnlFDWiRIgeQjx7V4B--132" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -554,7 +562,7 @@
           <mxGeometry x="58" y="4317" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--5" value="资金系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="1118" y="20" width="180" height="4740" as="geometry" />
+          <mxGeometry x="1163" y="20" width="180" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="AmnlFDWiRIgeQjx7V4B--5" source="AmnlFDWiRIgeQjx7V4B--103" target="AmnlFDWiRIgeQjx7V4B--108" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -602,13 +610,13 @@
           <mxGeometry x="40" y="3610" width="89" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--15" value="账务系统" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="1298" y="20" width="120" height="4740" as="geometry" />
+          <mxGeometry x="1343" y="20" width="120" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-232" value="批扣数据查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="AmnlFDWiRIgeQjx7V4B--15" vertex="1">
           <mxGeometry x="5" y="3810" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--10" value="梅州客商(资方)" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="1418" y="20" width="140" height="4740" as="geometry" />
+          <mxGeometry x="1463" y="20" width="140" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--116" value="授信申请" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="AmnlFDWiRIgeQjx7V4B--10" vertex="1">
           <mxGeometry x="25" y="1400" width="90" height="40" as="geometry" />
@@ -641,7 +649,7 @@
           <mxGeometry x="28" y="3610" width="89" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--11" value="京东云工厂" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="1558" y="20" width="120" height="4740" as="geometry" />
+          <mxGeometry x="1603" y="20" width="120" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--106" value="3.1.1授信申请" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" parent="AmnlFDWiRIgeQjx7V4B--11" vertex="1">
           <mxGeometry x="15" y="1260" width="90" height="40" as="geometry" />
@@ -650,7 +658,7 @@
           <mxGeometry x="15" y="1330" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--12" value="京东支付" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="AmnlFDWiRIgeQjx7V4B--1" vertex="1">
-          <mxGeometry x="1678" y="20" width="192" height="4740" as="geometry" />
+          <mxGeometry x="1723" y="20" width="192" height="4740" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--130" value="协议撞库接口" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" parent="AmnlFDWiRIgeQjx7V4B--12" vertex="1">
           <mxGeometry x="36" y="920" width="90" height="40" as="geometry" />
