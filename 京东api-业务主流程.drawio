@@ -218,7 +218,7 @@
           <mxGeometry x="34" y="4356" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-236" value="生成批扣文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="AmnlFDWiRIgeQjx7V4B--3" vertex="1">
-          <mxGeometry x="60" y="3850" width="110" height="30" as="geometry" />
+          <mxGeometry x="52.5" y="3850" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQbkwpJgoc6u_0-LjvOQ-245" value="发起整笔划扣" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="AmnlFDWiRIgeQjx7V4B--3" vertex="1">
           <mxGeometry x="34" y="4185" width="110" height="30" as="geometry" />
@@ -750,10 +750,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6UqnvY7gmlDvgkzH6sM9-1" value="催收系统发起整笔划扣" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="37sPxRJ08r3qUv_0azSB-16" vertex="1">
-          <mxGeometry x="80" y="3920" width="130" height="40" as="geometry" />
+          <mxGeometry x="80" y="3880" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6UqnvY7gmlDvgkzH6sM9-2" value="发起逾期整笔划扣申请" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="37sPxRJ08r3qUv_0azSB-16" vertex="1">
-          <mxGeometry x="85" y="4020" width="120" height="60" as="geometry" />
+          <mxGeometry x="85" y="3980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AmnlFDWiRIgeQjx7V4B--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;curved=0;" parent="AmnlFDWiRIgeQjx7V4B--1" source="AmnlFDWiRIgeQjx7V4B--19" target="AmnlFDWiRIgeQjx7V4B--20" edge="1">
           <mxGeometry relative="1" as="geometry" />
