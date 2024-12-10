@@ -293,16 +293,13 @@
           <mxGeometry x="-129" y="667" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-105" value="借款数据对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-9" y="667" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1Qo5zKgvzGwFc_g5c8-L-106" value="还款数据对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="111" y="667" width="90" height="40" as="geometry" />
+          <mxGeometry x="19" y="667" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-107" value="还款计划对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="231" y="667" width="90" height="40" as="geometry" />
+          <mxGeometry x="314" y="668.5" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-108" value="还款结果对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="361" y="667" width="90" height="40" as="geometry" />
+          <mxGeometry x="167" y="667" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-109" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="220" width="50" height="30" as="geometry" />
@@ -311,7 +308,7 @@
           <mxGeometry x="-228" y="223" width="68" height="27" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-111" value="签章合同对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="491" y="667" width="90" height="40" as="geometry" />
+          <mxGeometry x="462" y="667" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-112" value="批扣文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="610" y="667" width="90" height="40" as="geometry" />
