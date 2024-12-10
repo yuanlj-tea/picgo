@@ -325,7 +325,7 @@
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-115" value="渠道配置整合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="138.5" y="1073.75" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1Qo5zKgvzGwFc_g5c8-L-116" value="配置变更感知管控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1Qo5zKgvzGwFc_g5c8-L-116" value="配置变更感知管控" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="317.5" y="1073.75" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-117" value="xyf-api-gateway" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
