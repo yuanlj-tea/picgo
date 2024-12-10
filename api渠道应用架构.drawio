@@ -304,7 +304,7 @@
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-108" value="还款结果对账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="361" y="667" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1Qo5zKgvzGwFc_g5c8-L-109" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="1Qo5zKgvzGwFc_g5c8-L-109" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="220" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Qo5zKgvzGwFc_g5c8-L-110" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;待建&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
