@@ -370,17 +370,27 @@
         <mxCell id="3eJRVGEnP6KMk6OrLx9T-113" value="写入Activation表数据，status为NONE" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-470" y="3780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3eJRVGEnP6KMk6OrLx9T-120" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3eJRVGEnP6KMk6OrLx9T-115" target="3eJRVGEnP6KMk6OrLx9T-119" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3eJRVGEnP6KMk6OrLx9T-122" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3eJRVGEnP6KMk6OrLx9T-115" target="3eJRVGEnP6KMk6OrLx9T-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UDWsFxjrf3_HS-iiei2p-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3eJRVGEnP6KMk6OrLx9T-115" target="UDWsFxjrf3_HS-iiei2p-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-385" y="868" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-710" y="3940" />
+              <mxPoint x="-710" y="840" />
+              <mxPoint x="-380" y="840" />
+              <mxPoint x="-380" y="841" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDWsFxjrf3_HS-iiei2p-21" value="风控授信结果消息写入mq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="UDWsFxjrf3_HS-iiei2p-20">
+          <mxGeometry x="0.9006" y="2" relative="1" as="geometry">
+            <mxPoint x="-24" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3eJRVGEnP6KMk6OrLx9T-115" value="请求风控&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;credit/v2/apply接口发起授信&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-495" y="3910" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3eJRVGEnP6KMk6OrLx9T-119" value="如果接口返回失败将Activation表状态改为FAILED" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-230" y="3910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3eJRVGEnP6KMk6OrLx9T-121" value="Activation表status置为SUCCESS" style="whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-470" y="4040" width="120" height="60" as="geometry" />
@@ -601,6 +611,17 @@
         </mxCell>
         <mxCell id="UDWsFxjrf3_HS-iiei2p-10" value="查询借款引擎获取额度、期数数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1880" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDWsFxjrf3_HS-iiei2p-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UDWsFxjrf3_HS-iiei2p-22" target="3eJRVGEnP6KMk6OrLx9T-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDWsFxjrf3_HS-iiei2p-24" value="消费风控授信结果消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="UDWsFxjrf3_HS-iiei2p-23">
+          <mxGeometry x="0.2216" y="3" relative="1" as="geometry">
+            <mxPoint x="-37" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDWsFxjrf3_HS-iiei2p-22" value="rocketmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-175" y="811" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
