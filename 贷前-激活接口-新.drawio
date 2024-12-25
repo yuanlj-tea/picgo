@@ -582,15 +582,6 @@
         <mxCell id="pbYwqyJWvkE5BdoGc-Tp-89" value="返回激活成功的数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1880" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pbYwqyJWvkE5BdoGc-Tp-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#788AA3;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#46495D;endArrow=classic;fillColor=#B2C9AB;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1143.5" y="4240" as="targetPoint" />
-            <mxPoint x="1476.5" y="4270" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pbYwqyJWvkE5BdoGc-Tp-95" value="请求gateway的async接口回调结果数据" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1083.5" y="4240" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="UDWsFxjrf3_HS-iiei2p-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UDWsFxjrf3_HS-iiei2p-3" target="UDWsFxjrf3_HS-iiei2p-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
