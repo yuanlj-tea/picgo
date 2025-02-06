@@ -97,8 +97,8 @@
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-13" value="C端业务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="220" y="440" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="v9PM_FaOoYrTA3S6MkpD-14" value="外部依赖" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="70" y="585" width="80" height="140" as="geometry" />
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-14" value="外部依赖" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="585" width="80" height="125" as="geometry" />
         </mxCell>
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-15" value="B端业务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="469" y="440" width="200" height="120" as="geometry" />
@@ -114,6 +114,54 @@
         </mxCell>
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-20" value="apiopfcore" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="284" y="505" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-21" value="外部系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="585" width="340" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-22" value="cis" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="203" y="613" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-23" value="风控系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="273" y="613" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-24" value="三方系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="585" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-25" value="借款引擎" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="343" y="613" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-26" value="KYC系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="203" y="647" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-27" value="还款引擎" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="421" y="613" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-28" value="账务系统lcs" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="273" y="647" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-29" value="额度系统ams" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="343" y="647" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-30" value="绑卡中心" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="421" y="647" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-31" value="支付系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="203" y="680" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-32" value="资金系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="273" y="680" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-33" value="合同系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="343" y="680" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-34" value="麻雀系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="680" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-35" value="高德地图" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="613" width="56" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-36" value="旷世OCR识别" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="626.5" y="613" width="56" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
