@@ -1,9 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.14">
   <diagram name="第 1 页" id="XS6nX_aJ38wYpb9EXPcy">
-    <mxGraphModel>
+    <mxGraphModel dx="1186" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-1" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="670" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-2" value="api" style="swimlane;startSize=20;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-1">
+          <mxGeometry y="20" width="280" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bEYxLH-Ri-cHhI2nChgo-2" source="bEYxLH-Ri-cHhI2nChgo-6" target="bEYxLH-Ri-cHhI2nChgo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-6" value="进件接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-2">
+          <mxGeometry x="47.5" y="50" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bEYxLH-Ri-cHhI2nChgo-2" source="bEYxLH-Ri-cHhI2nChgo-7" target="bEYxLH-Ri-cHhI2nChgo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-7" value="获取设备指纹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-2">
+          <mxGeometry x="47.5" y="130" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-12" value="这里传的是android" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-2">
+          <mxGeometry x="200" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-13" value="发起授信激活" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-2">
+          <mxGeometry x="47.5" y="240" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-3" value="上报系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-1">
+          <mxGeometry x="280" y="20" width="190" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-9" value="获取设备指纹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-3">
+          <mxGeometry x="37.5" y="130" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-18" value="这里传的是other" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-3">
+          <mxGeometry x="20" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="bEYxLH-Ri-cHhI2nChgo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-4" value="风控系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-1">
+          <mxGeometry x="470" y="20" width="200" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-15" value="授信申请接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bEYxLH-Ri-cHhI2nChgo-4">
+          <mxGeometry x="50" y="240" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bEYxLH-Ri-cHhI2nChgo-1" source="bEYxLH-Ri-cHhI2nChgo-7" target="bEYxLH-Ri-cHhI2nChgo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-11" value="&lt;a style=&quot;box-sizing: border-box; background: 0px center rgb(255, 255, 85); color: rgb(0, 0, 187); -webkit-font-smoothing: antialiased; font-family: monospace; font-size: 14px; font-weight: 700; text-align: start; text-wrap-mode: wrap;&quot; target=&quot;_blank&quot; href=&quot;http://api.xinfei.io/report/device/get-fingerprint&quot;&gt;get-fingerprint&lt;/a&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="bEYxLH-Ri-cHhI2nChgo-10">
+          <mxGeometry x="-0.2345" y="-1" relative="1" as="geometry">
+            <mxPoint x="8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bEYxLH-Ri-cHhI2nChgo-1" source="bEYxLH-Ri-cHhI2nChgo-13" target="bEYxLH-Ri-cHhI2nChgo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEYxLH-Ri-cHhI2nChgo-17" value="credit-apply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEYxLH-Ri-cHhI2nChgo-16">
+          <mxGeometry x="-0.0811" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
