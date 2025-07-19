@@ -5,10 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-1" value="榕树权益支付信息查询" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
-          <mxGeometry x="120" y="140" width="709.9999999999995" height="1160" as="geometry" />
+          <mxGeometry x="120" y="140" width="709.9999999999995" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-2" value="apiofpcore" style="swimlane;startSize=20;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-1">
-          <mxGeometry y="20" width="379.99999999999955" height="1140" as="geometry" />
+          <mxGeometry y="20" width="379.99999999999955" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="9-3sKWMB5hhrohvcfJ4t-40" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;dashed=1;dashPattern=8 8;fillStyle=auto;fillColor=#A9C4EB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-2">
+          <mxGeometry x="25" y="820" width="190" height="310" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="9-3sKWMB5hhrohvcfJ4t-2" source="9-3sKWMB5hhrohvcfJ4t-29" target="9-3sKWMB5hhrohvcfJ4t-8">
           <mxGeometry relative="1" as="geometry" />
@@ -77,13 +80,13 @@
           <mxGeometry x="59.999999999999545" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-3" value="bankcore" style="swimlane;startSize=20;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-1">
-          <mxGeometry x="379.99999999999955" y="20" width="170" height="1140" as="geometry" />
+          <mxGeometry x="379.99999999999955" y="20" width="170" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-17" value="根据客户号获取用户有效的绑卡记录" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-3">
           <mxGeometry x="30.000000000000455" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-4" value="支付系统" style="swimlane;startSize=20;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-1">
-          <mxGeometry x="549.9999999999995" y="20" width="160" height="1140" as="geometry" />
+          <mxGeometry x="549.9999999999995" y="20" width="160" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-23" value="查询传入用户对应卡有效的签约信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="9-3sKWMB5hhrohvcfJ4t-4">
           <mxGeometry x="20.000000000000455" y="460" width="120" height="60" as="geometry" />
@@ -117,6 +120,14 @@
         <mxCell id="9-3sKWMB5hhrohvcfJ4t-24" value="5.2.4 查询银行卡的有效的支付通道的签约信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="9-3sKWMB5hhrohvcfJ4t-22">
           <mxGeometry x="-0.0708" y="-2" relative="1" as="geometry">
             <mxPoint x="7" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-3sKWMB5hhrohvcfJ4t-38" value="保存返回给渠道的权益支付信息数据" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179.99999999999955" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-3sKWMB5hhrohvcfJ4t-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9-3sKWMB5hhrohvcfJ4t-40" target="9-3sKWMB5hhrohvcfJ4t-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
