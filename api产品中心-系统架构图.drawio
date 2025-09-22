@@ -346,7 +346,7 @@
         <mxCell id="PERT3aIXh9mbVd2wunl5-15" value="编排sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="931.5" y="497" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PERT3aIXh9mbVd2wunl5-16" value="映射数据模拟校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PERT3aIXh9mbVd2wunl5-16" value="参数转换模拟校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="738.5" y="554" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-17" value="编排流程模拟执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -355,10 +355,10 @@
         <mxCell id="PERT3aIXh9mbVd2wunl5-18" value="联调数据录制重放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="931.5" y="554" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PERT3aIXh9mbVd2wunl5-19" value="配置发布上线" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PERT3aIXh9mbVd2wunl5-19" value="配置发布上线" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="738.5" y="610" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PERT3aIXh9mbVd2wunl5-20" value="配置灰度发布" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PERT3aIXh9mbVd2wunl5-20" value="配置灰度发布" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="836.5" y="610" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
