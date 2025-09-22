@@ -365,25 +365,25 @@
           <mxGeometry x="931.5" y="610" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="730" y="670" width="300" height="254" as="geometry" />
+          <mxGeometry x="730" y="680" width="300" height="254" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-23" value="业务原子能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="836.5" y="657" width="90" height="30" as="geometry" />
+          <mxGeometry x="836.5" y="667" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-24" value="贷前" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="737.5" y="718" width="90" height="30" as="geometry" />
+          <mxGeometry x="737.5" y="728" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-25" value="贷中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="835.5" y="718" width="90" height="30" as="geometry" />
+          <mxGeometry x="835.5" y="728" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-26" value="贷后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="933.5" y="718" width="90" height="30" as="geometry" />
+          <mxGeometry x="933.5" y="728" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-27" value="合同" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="737" y="782" width="90" height="30" as="geometry" />
+          <mxGeometry x="737" y="792" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-28" value="24+权益" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="836.5" y="782" width="90" height="30" as="geometry" />
+          <mxGeometry x="836.5" y="792" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
