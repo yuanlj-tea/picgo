@@ -466,6 +466,15 @@
         <mxCell id="gxTQzN0889wdsN01Kz5C-12" value="权益扣款结果查询/回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="315.25" y="850" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-14" value="贷中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="688" width="170" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-15" value="权益" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315.25" y="688" width="154.75" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-16" value="贷后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="688" width="190" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
