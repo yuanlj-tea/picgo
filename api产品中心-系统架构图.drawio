@@ -481,6 +481,9 @@
         <mxCell id="gxTQzN0889wdsN01Kz5C-18" value="华瑞银行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="475.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-20" value="ugchangw" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
