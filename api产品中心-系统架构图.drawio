@@ -484,7 +484,7 @@
         <mxCell id="gxTQzN0889wdsN01Kz5C-26" value="还款结果对账" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="409" y="635" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gxTQzN0889wdsN01Kz5C-27" value="屏蔽渠道差异" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gxTQzN0889wdsN01Kz5C-27" value="业务原子能力" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="511" y="520" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gxTQzN0889wdsN01Kz5C-28" value="权益订单、扣款、退款数据对账" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
