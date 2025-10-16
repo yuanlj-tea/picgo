@@ -26,10 +26,10 @@
           <mxGeometry x="-150" y="300" width="860" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-2" value="京东借钱" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-121.5" y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="-125.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-3" value="度小满" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="-5.25" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -181,11 +181,11 @@
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-66" value="告警维度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1180" y="500" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sWWA4bZMYuXRyUqMkDCf-68" value="还呗" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="122" y="315" width="90" height="40" as="geometry" />
+        <mxCell id="sWWA4bZMYuXRyUqMkDCf-68" value="………" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="595.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-69" value="微粒贷" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="366" y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="234.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sWWA4bZMYuXRyUqMkDCf-71" value="接收渠道请求&lt;br&gt;通知回调渠道" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-22.5" y="530" width="90" height="40" as="geometry" />
@@ -305,7 +305,7 @@
           <mxGeometry x="451.25" y="416" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-4" value="360借条" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="244" y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="114.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-5" value="会员权益系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="441.5" y="1121.5" width="90" height="40" as="geometry" />
@@ -476,10 +476,10 @@
           <mxGeometry x="500" y="688" width="190" height="32" as="geometry" />
         </mxCell>
         <mxCell id="gxTQzN0889wdsN01Kz5C-17" value="中原消金" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="488" y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="355.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gxTQzN0889wdsN01Kz5C-18" value="华瑞银行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="315" width="90" height="40" as="geometry" />
+          <mxGeometry x="475.75" y="315" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
