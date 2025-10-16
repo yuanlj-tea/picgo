@@ -457,6 +457,15 @@
         <mxCell id="gxTQzN0889wdsN01Kz5C-9" value="授信结果查询/回调" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="27.5" y="860" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-10" value="权益下单结果查询/回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315.25" y="793" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-11" value="权益还款计划查询/回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="793" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gxTQzN0889wdsN01Kz5C-12" value="权益扣款结果查询/回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315.25" y="850" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
