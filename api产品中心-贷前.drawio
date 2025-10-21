@@ -355,7 +355,7 @@
         </mxCell>
         <mxCell id="_hFNNQDsAzryGd1d4DFy-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;授信通过，触发绑person&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_hFNNQDsAzryGd1d4DFy-1">
           <mxGeometry x="-0.0872" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-466" y="54" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_hFNNQDsAzryGd1d4DFy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0aJKDV-4UEbGTjIscSVI-1" source="0aJKDV-4UEbGTjIscSVI-53" target="_hFNNQDsAzryGd1d4DFy-2">
@@ -387,7 +387,7 @@
         </mxCell>
         <mxCell id="_hFNNQDsAzryGd1d4DFy-17" value="兜底绑person" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="_hFNNQDsAzryGd1d4DFy-16">
           <mxGeometry x="-0.4667" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-89" y="152" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_hFNNQDsAzryGd1d4DFy-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="0aJKDV-4UEbGTjIscSVI-1" source="_hFNNQDsAzryGd1d4DFy-18" target="_hFNNQDsAzryGd1d4DFy-19">
