@@ -389,34 +389,34 @@
           <mxGeometry height="30" width="90" x="834" y="948.5" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-38" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="200" width="300" x="727.5" y="1032.5" as="geometry" />
+          <mxGeometry height="166.5" width="300" x="727.5" y="1023.5" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-39" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="联调测试" vertex="1">
-          <mxGeometry height="30" width="90" x="834" y="1019" as="geometry" />
+          <mxGeometry height="30" width="90" x="834" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-40" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="联调后台" vertex="1">
-          <mxGeometry height="30" width="90" x="734.5" y="1072" as="geometry" />
+          <mxGeometry height="30" width="90" x="734" y="1046.5" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-41" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="测试用户数据池" vertex="1">
-          <mxGeometry height="30" width="90" x="833" y="1072" as="geometry" />
+          <mxGeometry height="30" width="90" x="832.5" y="1046.5" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-42" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="调试接口管理" vertex="1">
-          <mxGeometry height="30" width="90" x="930" y="1072" as="geometry" />
+          <mxGeometry height="30" width="90" x="929.5" y="1046.5" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-43" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="接口参数mock管理" vertex="1">
-          <mxGeometry height="30" width="90" x="735" y="1123.5" as="geometry" />
+          <mxGeometry height="30" width="90" x="734.5" y="1098" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-44" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="接口调试" vertex="1">
-          <mxGeometry height="30" width="90" x="834" y="1123.5" as="geometry" />
+          <mxGeometry height="30" width="90" x="833.5" y="1098" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-45" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="测试自动化" vertex="1">
-          <mxGeometry height="30" width="90" x="931" y="1123.5" as="geometry" />
+          <mxGeometry height="30" width="90" x="930.5" y="1098" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-46" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="测试自动化" vertex="1">
-          <mxGeometry height="30" width="90" x="734.5" y="1173.5" as="geometry" />
+          <mxGeometry height="30" width="90" x="734" y="1148" as="geometry" />
         </mxCell>
         <mxCell id="PERT3aIXh9mbVd2wunl5-47" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="自动化结果收集" vertex="1">
-          <mxGeometry height="30" width="90" x="834" y="1173.5" as="geometry" />
+          <mxGeometry height="30" width="90" x="833.5" y="1148" as="geometry" />
         </mxCell>
         <mxCell id="gxTQzN0889wdsN01Kz5C-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="贷前" vertex="1">
           <mxGeometry height="32" width="260" x="-140" y="800" as="geometry" />
@@ -498,6 +498,24 @@
         </mxCell>
         <mxCell id="fHNMT90-i1UjZFWzgdTY-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="渠道适配层" vertex="1">
           <mxGeometry height="30" width="90" x="220.5" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="130" width="300" x="728" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="后台报表" vertex="1">
+          <mxGeometry height="30" width="90" x="832.5" y="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="渠道验单报表" vertex="1">
+          <mxGeometry height="30" width="90" x="734.5" y="1248.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="finbi报表" vertex="1">
+          <mxGeometry height="30" width="90" x="834" y="1249.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="周放款报表" vertex="1">
+          <mxGeometry height="30" width="90" x="931" y="1249.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze7SfK7o1Ba_w0Xuv11t-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="……" vertex="1">
+          <mxGeometry height="30" width="90" x="734.5" y="1300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
