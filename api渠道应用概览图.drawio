@@ -112,7 +112,7 @@
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="JAVA" vertex="1">
           <mxGeometry height="80" width="156" x="242" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="v9PM_FaOoYrTA3S6MkpD-20" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="apiopfcore" vertex="1">
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-20" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="apiopfcore" vertex="1">
           <mxGeometry height="30" width="72" x="284" y="505" as="geometry" />
         </mxCell>
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" value="外部系统" vertex="1">
