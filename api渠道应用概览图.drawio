@@ -85,7 +85,7 @@
             <mxPoint x="588" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v9PM_FaOoYrTA3S6MkpD-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="ugchanprod" vertex="1">
+        <mxCell id="v9PM_FaOoYrTA3S6MkpD-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ugchanprod" vertex="1">
           <mxGeometry height="30" width="72" x="488" y="361" as="geometry" />
         </mxCell>
         <mxCell id="v9PM_FaOoYrTA3S6MkpD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" value="业务核心层" vertex="1">
